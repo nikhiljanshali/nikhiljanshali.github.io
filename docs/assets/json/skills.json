@@ -1,0 +1,48 @@
+{
+  "MySkills": [
+    {
+      "FrontEnd": [
+        { "name": "AngularJs", "percentage": 85, "id": 1 },
+        { "name": "Angular 7-10", "percentage": 90, "id": 2 },
+        { "name": "TypeScript", "percentage": 90, "id": 3 },
+        { "name": "JavaScript", "percentage": 85, "id": 4 },
+        { "name": "RxJs", "percentage": 70, "id": 5 },
+        { "name": "Angular Material", "percentage": 80, "id": 6 },
+        { "name": "Lodash", "percentage": 65, "id": 7 },
+        { "name": "NgRx", "percentage": 60, "id": 8 },
+        { "name": "Redux", "percentage": 70, "id": 9 },
+        { "name": "ChartJs", "percentage": 30, "id": 10 },
+        { "name": "moment.js/ date-fns", "percentage": 75, "id": 11 },
+        { "name": "JWT", "percentage": 60, "id": 12 }
+      ],
+      "BackEnd": [
+        { "name": "SQL-Server", "percentage": 60, "id": 1 },
+        { "name": "MongoDB", "percentage": 50, "id": 2 }
+      ],
+      "Others": [
+        { "name": "DevOps", "percentage": 85, "id": 1 },
+        { "name": "Code Review", "percentage": 90, "id": 2 },
+        { "name": "Git", "percentage": 90, "id": 3 },
+        { "name": "Unit Testing", "percentage": 85, "id": 4 },
+        { "name": "WireFrame", "percentage": 85, "id": 5 },
+        { "name": "BaseCamp", "percentage": 85, "id": 6 },
+        { "name": "Figma", "percentage": 85, "id": 7 },
+        { "name": "Node.js", "percentage": 85, "id": 8 },
+        { "name": "NPM", "percentage": 85, "id": 9 },
+        { "name": "Yarn", "percentage": 85, "id": 10 },
+        { "name": "Gulp", "percentage": 85, "id": 11 },
+        { "name": "Grunt", "percentage": 85, "id": 12 }
+      ],
+      "KeySkill": [
+        { "name": "UI & UX Designing", "percentage": 85, "id": 1 },
+        { "name": "Product Delivery", "percentage": 90, "id": 2 },
+        { "name": "Web & Application Development", "percentage": 90, "id": 3 },
+        { "name": "Process Optimization", "percentage": 85, "id": 4 },
+        { "name": "Solution Architecture", "percentage": 85, "id": 5 },
+        { "name": "Bug fixing & Troubleshooting", "percentage": 85, "id": 6 },
+        { "name": "Client Requirements", "percentage": 85, "id": 7 },
+        { "name": "Storyboard Development", "percentage": 85, "id": 8 }
+      ]
+    }
+  ]
+}

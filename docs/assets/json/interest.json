@@ -1,0 +1,24 @@
+{
+  "MyInterest": [
+    {
+      "id": 1,
+      "name":"Cycling"
+    },
+    {
+      "id": 2,
+      "name":"Reading Novel"
+    },
+    {
+      "id": 3,
+      "name":"Cooking"
+    },
+    {
+      "id": 4,
+      "name":"Movies"
+    },
+    {
+      "id": 5,
+      "name":"Games"
+    }
+  ]
+}

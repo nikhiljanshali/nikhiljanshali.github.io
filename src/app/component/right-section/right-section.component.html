@@ -1,0 +1,99 @@
+<section class="resume-section skills-section mb-5">
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">SKills</h2>
+  <div class="resume-section-content">
+    <div class="resume-skill-item">
+      <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
+      <ul class="list-unstyled mb-4">
+        <li class="mb-2" *ngFor="let item of frontEndSkills;">
+          <div class="resume-skill-name">{{item.name}}</div>
+          <div class="progress resume-progress">
+            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+              [ngStyle]="{'width': item.percentage + '%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div><!--//resume-skill-item-->
+
+    <div class="resume-skill-item">
+      <h4 class="resume-skills-cat font-weight-bold">Backend</h4>
+      <ul class="list-unstyled">
+        <li class="mb-2" *ngFor="let item of backEndSKills;">
+          <div class="resume-skill-name">{{item.name}}</div>
+          <div class="progress resume-progress">
+            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+              [ngStyle]="{'width': item.percentage + '%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div><!--//resume-skill-item-->
+
+    <div class="resume-skill-item">
+      <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+      <ul class="list-inline">
+        <li class="list-inline-item" *ngFor="let item of otherSkills"><span
+            class="badge badge-light">{{item.name}}</span></li>
+      </ul>
+    </div><!--//resume-skill-item-->
+
+    <div class="resume-skill-item">
+      <h4 class="resume-skills-cat font-weight-bold">Key Skills</h4>
+      <ul class="list-inline">
+        <li class="list-inline-item" *ngFor="let item of keySkills"><span
+            class="badge badge-light">{{item.name}}</span></li>
+      </ul>
+    </div><!--//resume-skill-item-->
+
+  </div><!--resume-section-content-->
+</section><!--//skills-section-->
+<section class="resume-section education-section mb-5">
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+  <div class="resume-section-content">
+    <ul class="list-unstyled">
+      <li class="mb-2" *ngFor="let item of myEducation">
+        <div class="resume-degree font-weight-bold">{{item.college}}</div>
+        <div class="resume-degree-org">{{item.university}}</div>
+        <div class="resume-degree-time">{{item.year}}</div>
+      </li>
+    </ul>
+  </div>
+</section><!--//education-section-->
+<section class="resume-section language-section mb-5">
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+  <div class="resume-section-content">
+    <ul class="list-unstyled resume-lang-list">
+      <li class="mb-2" *ngFor="let item of myLanguage">
+        <span class="resume-lang-name font-weight-bold">{{item.name}}</span>
+        <small class="text-muted font-weight-normal">({{item.ftype}})</small>
+      </li>
+    </ul>
+  </div>
+</section><!--//language-section-->
+<section class="resume-section interests-section mb-5">
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+  <div class="resume-section-content">
+    <ul class="list-inline">
+      <li class="list-inline-item" *ngFor="let item of myInterest"><span class="badge badge-light">{{item.name}}</span>
+      </li>
+    </ul>
+  </div>
+</section><!--//interests-section-->
+<section class="resume-section reference-section mb-5">
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+  <div class="resume-section-content">
+    <ul class="list-unstyled resume-awards-list">
+      <li class="mb-2 ps-4 position-relative">
+        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+        <div class="resume-award-name">Award Name Lorem</div>
+        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis,
+          sem. Nulla consequat massa quis enim. Donec pede justo.</div>
+      </li>
+      <li class="mb-0 ps-4 position-relative">
+        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+        <div class="resume-award-name">Award Name Ipsum</div>
+        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
+      </li>
+    </ul>
+  </div>
+</section>
