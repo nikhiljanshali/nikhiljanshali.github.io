@@ -9,6 +9,8 @@ import { RightSectionComponent } from './component/right-section/right-section.c
 import { LeftSectionComponent } from './component/left-section/left-section.component';
 import { HeaderBarComponent } from './component/header-bar/header-bar.component';
 import { CareerObjectiveComponent } from './component/career-objective/career-objective.component';
+import { ProjectExperienceComponent } from './component/project-experience/project-experience.component';
+import { FooterBarComponent } from './component/footer-bar/footer-bar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { CareerObjectiveComponent } from './component/career-objective/career-ob
     LeftSectionComponent,
     HeaderBarComponent,
     CareerObjectiveComponent,
+    ProjectExperienceComponent,
+    FooterBarComponent,
   ],
   imports: [
     BrowserModule,

@@ -12078,7 +12078,7 @@ a.theme-btn-on-bg:active,
 }
 
 .resume-company-name {
-  color    : var(--bs-cyan);
+  color      : var(--bs-cyan);
   font-size  : 1rem;
   font-weight: 500;
 }
@@ -12216,4 +12216,117 @@ a.theme-btn-on-bg:active,
     display: none;
   }
 
+}
+
+
+
+.jagged-border {
+  position: relative;
+  width   : 100%;
+  height  : 10px;
+}
+
+.jagged-border:before {
+  content : "";
+  display : block;
+  position: absolute;
+  top     : -10px;
+  width   : 100%;
+  height  : 10px;
+}
+
+.lightgray-bg {
+  background: #ECF0F1;
+}
+
+.lightgray-bg:before {
+  background     : linear-gradient(45deg, transparent 33.333%, #ECF0F1 33.333%, #ECF0F1 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ECF0F1 33.333%, #ECF0F1 66.667%, transparent 66.667%);
+  background-size: 20px 40px;
+}
+
+.white-bg {
+  background: #FFF;
+}
+
+.white-bg:before {
+  background     : linear-gradient(45deg, transparent 33.333%, #fff 33.333%, #fff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #fff 33.333%, #fff 66.667%, transparent 66.667%);
+  background-size: 20px 40px;
+}
+
+.darkgray-bg {
+  background: #C3C9CC;
+}
+
+.darkgray-bg:before {
+  background     : linear-gradient(45deg, transparent 33.333%, #C3C9CC 33.333%, #C3C9CC 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #C3C9CC 33.333%, #C3C9CC 66.667%, transparent 66.667%);
+  background-size: 20px 40px;
+}
+
+
+/* Timeline custom component */
+.timeline {
+  border-left: 3px solid var(--bs-cyan);
+  padding    : 1rem 0;
+  margin: 0px 5px;
+}
+
+.timeline-card {
+  position     : relative;
+  margin-left  : 31px;
+  border-left  : 2px solid;
+  margin-bottom: 2rem;
+}
+
+.timeline-card:last-child {
+  margin-bottom: 1rem;
+}
+
+.timeline-card:before {
+  content         : '';
+  display         : inline-block;
+  position        : absolute;
+  background-color: #fff;
+  border-radius   : 10px;
+  width           : 12px;
+  height          : 12px;
+  top             : 20px;
+  left            : -41px;
+  border          : 2px solid;
+  z-index         : 2;
+}
+
+.timeline-card:after {
+  content         : '';
+  display         : inline-block;
+  position        : absolute;
+  background-color: currentColor;
+  width           : 29px;
+  height          : 2px;
+  top             : 25px;
+  left            : -29px;
+  z-index         : 1;
+}
+
+.timeline-card-primary {
+  border-left-color: var(--bs-cyan);
+}
+
+.timeline-card-primary:before {
+  border-color: var(--bs-cyan);
+}
+
+.timeline-card-primary:after {
+  background-color: var(--bs-cyan);
+}
+
+.timeline-card-success {
+  border-left-color: #37BC9B;
+}
+
+.timeline-card-success:before {
+  border-color: #37BC9B;
+}
+
+.timeline-card-success:after {
+  background-color: #37BC9B;
 }

@@ -22,7 +22,6 @@ export class HeaderBarComponent implements OnInit {
   ngOnInit(): void {
     this.getMyDetailInfo().subscribe((res) => {
       this.detail = res.MyInfo[0];
-      console.log(this.detail);
     });
   }
 
