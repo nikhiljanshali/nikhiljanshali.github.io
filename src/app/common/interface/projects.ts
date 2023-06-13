@@ -9,7 +9,7 @@ export interface MyProjectExperience {
   responsibility: string
   description: description[]
   technologies_used: string[]
-  teamsize: string
+  teamsize: string,
 }
 
 export interface description {
