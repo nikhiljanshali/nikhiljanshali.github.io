@@ -12,8 +12,9 @@
       ],
       "technologies_used": [],
       "teamsize": "6",
-      "project_type": "Product Base",
-      "project_period": "Long Term (12 Months)"
+      "project_type": "In-house Product",
+      "project_period": "Long Term (12 Months)",
+      "company": "Moon Technolabs"
     },
     {
       "id": 2,
@@ -28,8 +29,9 @@
       ],
       "technologies_used": [],
       "teamsize": "8",
-      "project_type": "Product Base",
-      "project_period": "Long Term (12 Months)"
+      "project_type": "In-house Product",
+      "project_period": "Long Term (12 Months)",
+      "company": "GlowStar"
     },
     {
       "id": 3,
@@ -43,8 +45,9 @@
       ],
       "technologies_used": [],
       "teamsize": "12",
-      "project_type": "Service Base",
-      "project_period": "Long Term (24 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Long Term (24 Months)",
+      "company": "Gateway Group of Companies"
     },
     {
       "id": 4,
@@ -58,8 +61,9 @@
       ],
       "technologies_used": [],
       "teamsize": "7",
-      "project_type": "Service Base",
-      "project_period": "Short Term (8 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Short Term (8 Months)",
+      "company": "Gateway Group of Companies"
     },
     {
       "id": 5,
@@ -73,8 +77,9 @@
       ],
       "technologies_used": [],
       "teamsize": "10",
-      "project_type": "Service Base",
-      "project_period": "Short Term (6 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Short Term (6 Months)",
+      "company": "Gateway Group of Companies"
     },
     {
       "id": 6,
@@ -88,8 +93,9 @@
       ],
       "technologies_used": [],
       "teamsize": "20",
-      "project_type": "Service Base",
-      "project_period": "Long Term (12 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Long Term (12 Months)",
+      "company": "Gateway Group of Companies"
     },
     {
       "id": 7,
@@ -101,7 +107,10 @@
         "Microsoft Azure has delivered the application"
       ],
       "technologies_used": [],
-      "teamsize": "5"
+      "teamsize": "5",
+      "project_type": "Client-Service",
+      "project_period": "Long Term (9 Months)",
+      "company": "Gateway Group of Companies"
     },
     {
       "id": 8,
@@ -114,8 +123,9 @@
       ],
       "technologies_used": [],
       "teamsize": "6",
-      "project_type": "Service Base",
-      "project_period": "Short Term (8 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Short Term (8 Months)",
+      "company": "Gateway Group of Companies"
     },
     {
       "id": 9,
@@ -129,8 +139,9 @@
       ],
       "technologies_used": [],
       "teamsize": "5",
-      "project_type": "Service Base",
-      "project_period": "Short Term (6 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Short Term (6 Months)",
+      "company": "Gateway Group of Companies"
     },
     {
       "id": 10,
@@ -144,8 +155,9 @@
       ],
       "technologies_used": [],
       "teamsize": "5",
-      "project_type": "Service Base",
-      "project_period": "Long Term (12 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Long Term (12 Months)",
+      "company": "IBDTD"
     },
     {
       "id": 11,
@@ -158,11 +170,39 @@
       ],
       "technologies_used": [],
       "teamsize": "5",
-      "project_type": "Service Base",
-      "project_period": "Long Term (12 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Long Term (12 Months)",
+      "company": "IBDTD"
     },
     {
       "id": 12,
+      "name": "Company Portfolio",
+      "role": "Software Engineer",
+      "description": [
+        "Analysis of company information, develope company portfolio using HTML, CSS, JavaScript, Bootstrap, font-awasome along with Asp.net C# and SQL server for dynamic data capturing for contact us and inquery form",
+        "Develop basic design with help of company's marketing team, and owner of company, so they give easily give information about different produt to sell"
+      ],
+      "technologies_used": [],
+      "teamsize": "2",
+      "project_type": "In-house Product",
+      "project_period": "Long Term (12 Months)",
+      "company": "Jupiter System"
+    },
+    {
+      "id": 13,
+      "name": "Mail Plugin",
+      "role": "Software Engineer",
+      "description": [
+        "Develop C#.net base with GUI application, which communicate with SQL server using SQL quries to fetch email based on user role to send bulk mail"
+      ],
+      "technologies_used": [],
+      "teamsize": "2",
+      "project_type": "In-house Product",
+      "project_period": "Short Term (2 Months)",
+      "company": "Jupiter System"
+    },
+    {
+      "id": 14,
       "name": "Soil & Material Test & Report App",
       "role": " Developer",
       "responsibility": "",
@@ -172,8 +212,9 @@
       ],
       "technologies_used": [],
       "teamsize": "2",
-      "project_type": "Service Base",
-      "project_period": "Short Term (8 Months)"
+      "project_type": "Client-Service",
+      "project_period": "Short Term (8 Months)",
+      "company": "Matrix Networks & Solutions"
     }
   ]
 }

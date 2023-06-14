@@ -10,7 +10,8 @@ export interface MyProjectExperience {
   technologies_used: string[]
   teamsize: string,
   project_type: string,
-  project_period: string
+  project_period: string,
+  company: string
 }
 
 export interface description {

@@ -14,25 +14,30 @@
       "company": "",
       "email": ["nikhil.janshali@gmail.com", "nikhil.janshali@hotmail.com"],
       "phone": ["+91 82384 55699"],
-      "address": "767 Bartlett Street, Floris, Rhode Island, 657",
+      "address": "1/909, 1st Floor - Shreenath Apartment, Adagara Street, Near Central Bank of India, Opp. Khursha Bakery, Nanpura, Surat - 395001, Gujarat",
       "about": "Anim proident aliquip aute officia do deserunt velit. Do tempor est ex nulla laborum. Enim enim ipsum ipsum esse duis anim est qui velit sit sit. Velit deserunt elit aute labore. Ipsum do sunt eiusmod tempor esse dolore fugiat cillum voluptate do ex esse sit.\r\n",
       "latitude": 18.316135,
       "longitude": 73.563621,
       "tags": [
         {
+          "id": "1",
           "name": "linkedin.com/in/nikhil-janshali/",
-          "iconname": "fab fa-linkedin-in fa-fw",
-          "id": "1"
+          "iconname": "fab fa-linkedin-in fa-fw"
         },
         {
+          "id": "2",
           "name": "github.com/nikhiljanshali/",
-          "iconname": "fab fa-github-alt fa-fw",
-          "id": "2"
+          "iconname": "fab fa-github-alt fa-fw"
         },
         {
+          "id": "3",
           "name": "codepen.io/nikhiljanshali/",
-          "iconname": "fab fa-codepen fa-fw",
-          "id": "3"
+          "iconname": "fab fa-codepen fa-fw"
+        },
+        {
+          "id": "4",
+          "name": "https://nikhiljanshali.github.io/",
+          "iconname": "fas fa-globe fa-fw"
         }
       ],
       "greeting": "Hello, Nikhil Janshali! I am angular developer.",
