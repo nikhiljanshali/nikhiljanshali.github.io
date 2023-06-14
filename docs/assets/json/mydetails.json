@@ -1,0 +1,42 @@
+{
+  "MyInfo": [
+    {
+      "_id": "6488680464e6a857df94574d",
+      "index": 0,
+      "guid": "3a13845d-b615-44e6-962b-bcdc723ac417",
+      "isActive": true,
+      "balance": "$2,473.78",
+      "picture": "http://placehold.it/32x32",
+      "age": 23,
+      "eyeColor": "brown",
+      "name": "Nikhil Janshali",
+      "gender": "male",
+      "company": "",
+      "email": ["nikhil.janshali@gmail.com", "nikhil.janshali@hotmail.com"],
+      "phone": ["+91 82384 55699"],
+      "address": "767 Bartlett Street, Floris, Rhode Island, 657",
+      "about": "Anim proident aliquip aute officia do deserunt velit. Do tempor est ex nulla laborum. Enim enim ipsum ipsum esse duis anim est qui velit sit sit. Velit deserunt elit aute labore. Ipsum do sunt eiusmod tempor esse dolore fugiat cillum voluptate do ex esse sit.\r\n",
+      "latitude": 18.316135,
+      "longitude": 73.563621,
+      "tags": [
+        {
+          "name": "linkedin.com/in/nikhil-janshali/",
+          "iconname": "fab fa-linkedin-in fa-fw",
+          "id": "1"
+        },
+        {
+          "name": "github.com/nikhiljanshali/",
+          "iconname": "fab fa-github-alt fa-fw",
+          "id": "2"
+        },
+        {
+          "name": "codepen.io/nikhiljanshali/",
+          "iconname": "fab fa-codepen fa-fw",
+          "id": "3"
+        }
+      ],
+      "greeting": "Hello, Nikhil Janshali! I am angular developer.",
+      "favoriteFruit": "strawberry"
+    }
+  ]
+}

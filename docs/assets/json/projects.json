@@ -1,0 +1,157 @@
+{
+  "MyProjectExperience": [
+    {
+      "id": 1,
+      "name": "Invoice App",
+      "role": "Angular Team Lead",
+      "description": [
+        "Co-ordinated with designer and other team members to improve collaboration and delivery of result",
+        "Research application performance through design improvement, images optimization, and duplicate code removal process.",
+        "Implement lazy loading and auxiliary routing with the support of child routing to capture the log process in detail.",
+        "Reaseach on socket print library ng-thermal-print to print parallel print at the same time."
+      ],
+      "technologies_used": [],
+      "teamsize": "6"
+    },
+    {
+      "id": 2,
+      "name": "CRM App",
+      "role": " Analyst / Developer",
+      "responsibility": "",
+      "description": [
+        "In-house project to upgrade present sales and purchases, alongside an e-trade portal in a single area effortlessly reachable software",
+        "Provide exceptional module base answers utilising the angular 10, bootstrap CSS framework, JQuery, JavaScript, custom CSS, and Flexbox as front-stop technology, also use .net core and Mongo dB as back-end development",
+        "Improved CSV file import module with filter, search facilities, and direct data entry to the database",
+        "Complied with existing application details to understand technical functionality to introduce new features in new application"
+      ],
+      "technologies_used": [],
+      "teamsize": "8"
+    },
+    {
+      "id": 3,
+      "name": "Car Leasing Quote Management Application",
+      "role": " Angular Developer",
+      "description": [
+        "An application has been revamped using technologies such as Angular 10, Angular Material, Flex Module, Redux, RxJs, RxWeb-Angular, Web API, and Microservices.",
+        "This project is for automating the entire process of leasing car(s) for employees or staff. ",
+        "The application has three parts, Car search, filtering, and selection module, Owner and Driver section, Quote generation process",
+        "This application is a majorly data-driven application which maintains the data for the client. Also, responsible to generate digital quotes for the leased car by the client"
+      ],
+      "technologies_used": [],
+      "teamsize": "12"
+    },
+    {
+      "id": 4,
+      "name": "Dealer Management System",
+      "role": " Module Lead / Angular Developer",
+      "description": [
+        "For numerous automobile dealers in Norway, we created this system to automate the entire car service life cycle management process.",
+        "The appointment, mechanic, dealer, user, automobile information, and customer information are just a few of the modules included in this programme.",
+        "This application has been combined using Angular 9, Angular Material, HTML, CSS, and RxJs.",
+        "With Open AUTH services like Google, Facebook, and LinkedIn, we offer specialised products that are simple to use and administer"
+      ],
+      "technologies_used": [],
+      "teamsize": "7"
+    },
+    {
+      "id": 5,
+      "name": "Car Service Booking App",
+      "role": " Module Lead / Angular Developer",
+      "description": [
+        "It is a client from the UK who is applying for a car service. where there are numerous roles, such as administrative, customer, service, transport, etc...",
+        "The application includes the modules below: Dashboard-Receipt, Status Tracker, and Check-In",
+        "Angular 9, Bootstrap framework, HTML, CSS, Web API, Google map API, and SAP authentication were used to construct the application.",
+        "Additionally, SAP Digital Vehicle HUB API was integrated for the most recent information about cars."
+      ],
+      "technologies_used": [],
+      "teamsize": "10"
+    },
+    {
+      "id": 6,
+      "name": "UI Component Library",
+      "role": " Angular Developer",
+      "description": [
+        "Aims to complement the tenant base component library by providing a dynamic interface for diverse tenant logins via the common user management system.",
+        "We used Angular 7, HTML, CSS3, and Bootstrap for responsive web design early on in the development phase. Additionally, to maintain the application state management system, we use the Redux Angular Store, @ngrx/store.",
+        "Furthermore, I worked on dynamic modal binding using $ ng-open API-gen for forms with dynamic data.",
+        "Observable and subscribing processes of data intercept based on tenant supplied as custom HTTP Option in HttpIntercepter were also merged, and custom payload was updated."
+      ],
+      "technologies_used": [],
+      "teamsize": "20"
+    },
+    {
+      "id": 7,
+      "name": "Clockwork Connect",
+      "role": " Front-End Developer",
+      "description": [
+        "The goal of this project is to fully automate the talent acquisition process. Two sections have been developed for the application. One is a front office, and the other is a rear office.",
+        "Front-end application has been developed using PWA + Angular 8, HTML, SCSS, consume dot net Micro-services, and third-party Telerik angular controls to produce various modules like job-posting, CV screening, skill base company list, renew/extended contract, etc...",
+        "Microsoft Azure has delivered the application"
+      ],
+      "technologies_used": [],
+      "teamsize": "5"
+    },
+    {
+      "id": 8,
+      "name": "A Board Game - Backgammon",
+      "role": " Angular JS Developer",
+      "description": [
+        "This is a gaming project. Here users can register themselves and play with other users with fun as well as real money. Multiple Play Modes - Single Player, Peer-to-Peer in a LAN Setup, Remote Game server. Type- Round Robin, Swiss System, Knock Out and Manual Pairing.",
+        "Creating UI pages with AngularJS, HTML5, CSS3, HTML Canvas, JavaScript, jQuery, AJAX, JSON, and responsive web pages for mobile devices with Bootstrap and media queries.",
+        "Created a shared service that allows all applications to access the game's asset and communicate with the backend using $http to send GET/POST requests to get data from servers."
+      ],
+      "technologies_used": [],
+      "teamsize": "6"
+    },
+    {
+      "id": 9,
+      "name": "Collaborative App - Group room ",
+      "role": " Angular JS Developer",
+      "description": [
+        "An application for collaborative teams where the admin, team leader, or project manager may form their own team, invite members, give TODO tasks to each other, define priorities, share files, and group chat with team members simultaneously.",
+        "Using AngularJs, Angular Material, JavaScript, Bootstrap, CSS Media Queries, and other technologies, we develop responsive applications.",
+        "The styling was created using Stylus, and it will all be converted to CSS by the grunt server. It was used to enhance the greater capabilities of the website.",
+        "Additionally implemented, $http to obtains data rapidly by establishing asynchronous connections with the project server using Ajax and JSON."
+      ],
+      "technologies_used": [],
+      "teamsize": "5"
+    },
+    {
+      "id": 10,
+      "name": "Patient & Clinical System - Doctory Stay",
+      "role": " Angular Front-End Developer",
+      "description": [
+        "A patient management system which helps the doctor to maintain the history of records about the patient. It comprises of following modules: Appointment Booking, scheduling and rescheduling, Treatment and Operation Scheduling, Prescriptions and Drug Management",
+        "In order to make the AngularJS Controller, View, Custom Directive, and factory manageable, the MCV design pattern was used",
+        "Created SOAP web services and integrated REST APIs at work",
+        "The services were developed using SOAP/Web API and evaluated on Postman before being utilised in AngularJS $HTTP service calls to bind the data in the table using ng-repeat attributes"
+      ],
+      "technologies_used": [],
+      "teamsize": "5"
+    },
+    {
+      "id": 11,
+      "name": "Job Consultancy - RecruitBazaar",
+      "role": " Angular Front-End Developer",
+      "description": [
+        "Implemented the application to keep track of the entire hiring process. Three phases—candidate, company, and consultant—were created by this system",
+        "Involved in the development of User Interface Design and the production of web pages utilising AngularJS, HTML, CSS, Bootstrap 3, LessJS, JavaScript, jQuery, and Media Quires to design responsible web pages for smart devices",
+        "Leveraging ASP.NET, C#, and SQL Server to construct dynamic SOAP-based online services, tiny SQL functions, stored procedures, and database design."
+      ],
+      "technologies_used": [],
+      "teamsize": "5"
+    },
+    {
+      "id": 12,
+      "name": "Soil & Material Test & Report App",
+      "role": " Developer",
+      "responsibility": "",
+      "description": [
+        "Develop a GUI-based Windows application using C#.net, SQL server 2008 as base of the project",
+        "Application had module-like test-material in-out management, equation calculation, In-out receipt management, Report management, Invoice and bill generation"
+      ],
+      "technologies_used": [],
+      "teamsize": "2"
+    }
+  ]
+}
