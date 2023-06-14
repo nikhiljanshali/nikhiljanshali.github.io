@@ -12266,7 +12266,6 @@ a.theme-btn-on-bg:active,
 /* Timeline custom component */
 .timeline {
   border-left: 3px solid var(--bs-cyan);
-  padding    : 1rem 0;
   margin: 0px 5px;
 }
 

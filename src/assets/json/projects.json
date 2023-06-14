@@ -11,7 +11,9 @@
         "Reaseach on socket print library ng-thermal-print to print parallel print at the same time."
       ],
       "technologies_used": [],
-      "teamsize": "6"
+      "teamsize": "6",
+      "project_type": "Product Base",
+      "project_period": "Long Term (12 Months)"
     },
     {
       "id": 2,
@@ -25,7 +27,9 @@
         "Complied with existing application details to understand technical functionality to introduce new features in new application"
       ],
       "technologies_used": [],
-      "teamsize": "8"
+      "teamsize": "8",
+      "project_type": "Product Base",
+      "project_period": "Long Term (12 Months)"
     },
     {
       "id": 3,
@@ -38,7 +42,9 @@
         "This application is a majorly data-driven application which maintains the data for the client. Also, responsible to generate digital quotes for the leased car by the client"
       ],
       "technologies_used": [],
-      "teamsize": "12"
+      "teamsize": "12",
+      "project_type": "Service Base",
+      "project_period": "Long Term (24 Months)"
     },
     {
       "id": 4,
@@ -51,7 +57,9 @@
         "With Open AUTH services like Google, Facebook, and LinkedIn, we offer specialised products that are simple to use and administer"
       ],
       "technologies_used": [],
-      "teamsize": "7"
+      "teamsize": "7",
+      "project_type": "Service Base",
+      "project_period": "Short Term (8 Months)"
     },
     {
       "id": 5,
@@ -64,7 +72,9 @@
         "Additionally, SAP Digital Vehicle HUB API was integrated for the most recent information about cars."
       ],
       "technologies_used": [],
-      "teamsize": "10"
+      "teamsize": "10",
+      "project_type": "Service Base",
+      "project_period": "Short Term (6 Months)"
     },
     {
       "id": 6,
@@ -77,7 +87,9 @@
         "Observable and subscribing processes of data intercept based on tenant supplied as custom HTTP Option in HttpIntercepter were also merged, and custom payload was updated."
       ],
       "technologies_used": [],
-      "teamsize": "20"
+      "teamsize": "20",
+      "project_type": "Service Base",
+      "project_period": "Long Term (12 Months)"
     },
     {
       "id": 7,
@@ -101,7 +113,9 @@
         "Created a shared service that allows all applications to access the game's asset and communicate with the backend using $http to send GET/POST requests to get data from servers."
       ],
       "technologies_used": [],
-      "teamsize": "6"
+      "teamsize": "6",
+      "project_type": "Service Base",
+      "project_period": "Short Term (8 Months)"
     },
     {
       "id": 9,
@@ -114,7 +128,9 @@
         "Additionally implemented, $http to obtains data rapidly by establishing asynchronous connections with the project server using Ajax and JSON."
       ],
       "technologies_used": [],
-      "teamsize": "5"
+      "teamsize": "5",
+      "project_type": "Service Base",
+      "project_period": "Short Term (6 Months)"
     },
     {
       "id": 10,
@@ -127,7 +143,9 @@
         "The services were developed using SOAP/Web API and evaluated on Postman before being utilised in AngularJS $HTTP service calls to bind the data in the table using ng-repeat attributes"
       ],
       "technologies_used": [],
-      "teamsize": "5"
+      "teamsize": "5",
+      "project_type": "Service Base",
+      "project_period": "Long Term (12 Months)"
     },
     {
       "id": 11,
@@ -139,7 +157,9 @@
         "Leveraging ASP.NET, C#, and SQL Server to construct dynamic SOAP-based online services, tiny SQL functions, stored procedures, and database design."
       ],
       "technologies_used": [],
-      "teamsize": "5"
+      "teamsize": "5",
+      "project_type": "Service Base",
+      "project_period": "Long Term (12 Months)"
     },
     {
       "id": 12,
@@ -151,7 +171,9 @@
         "Application had module-like test-material in-out management, equation calculation, In-out receipt management, Report management, Invoice and bill generation"
       ],
       "technologies_used": [],
-      "teamsize": "2"
+      "teamsize": "2",
+      "project_type": "Service Base",
+      "project_period": "Short Term (8 Months)"
     }
   ]
 }
