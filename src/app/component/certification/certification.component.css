@@ -1,6 +1,43 @@
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lightgallery.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-zoom.css');
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height  : 0px;
+}
 
-.gallery-item {
-  margin: 5px;
+.owl-carousel .nav-btn {
+  position     : absolute;
+  cursor       : pointer;
+  top          : 44% !important;
+  color        : #ffffff;
+  font-size    : 20px;
+  border-radius: 50%;
+  background-image:
+    linear-gradient(180deg, #27b6b9 0%, #0f4061 100%);
+  width : 25px;
+  height: 25px;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity       : 0.2;
+}
+
+.owl-carousel .nav-btn:before {
+  vertical-align: middle;
+}
+
+.owl-carousel .prev-slide {
+  left: -11px;
+}
+
+.owl-carousel .next-slide {
+  right: -11px;
+}
+
+.owl-carousel .prev-slide:hover {
+  background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+  background-position: -24px -53px;
 }

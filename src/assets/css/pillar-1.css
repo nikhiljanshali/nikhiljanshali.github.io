@@ -11984,7 +11984,8 @@ a.theme-btn-on-bg:active,
   top       : -231px;
   width     : calc(100% + 10px);
   height    : calc(100% + 238px);
-  background: linear-gradient(to right, #2c3e50, #4ca1af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index   : -1;
 }
 
@@ -12088,24 +12089,37 @@ a.theme-btn-on-bg:active,
   border-radius: 50%;
 }
 
+.resume-timeline-item-header {
+  padding      : 0px 0px 10px 0px;
+  border-bottom: 3px dotted var(--bs-cyan);
+}
+
 .resume-progress {
   height: 0.6rem;
 }
 
 .resume-company-name {
-  color      : var(--bs-cyan);
-  font-size  : 1rem;
-  font-weight: 500;
+  color         : var(--bs-cyan);
+  font-size     : 1rem;
+  font-weight   : 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .resume-position-time {
-  font-size: 0.875rem;
-  color    : var(--bs-cyan);
+  font-size     : 0.875rem;
+  font-weight   : 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color         : var(--bs-teal);
 }
 
 .resume-position-title {
-  font-size: 1.125rem;
-  color    : var(--bs-cyan);
+  font-size     : 1.125rem;
+  font-weight   : 600;
+  letter-spacing: 2px;
+  color         : var(--bs-cyan);
+  text-transform: uppercase;
 }
 
 .resume-timeline-item-desc-heading {
@@ -12115,8 +12129,9 @@ a.theme-btn-on-bg:active,
 .resume-skills-cat {
   font-size       : 1rem;
   color           : var(--bs-white);
-  background-image: var(--bs-skills);
-  padding         : 5px;
+  background-image: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);
+  padding         : 10px;
+  border          : 3px solid var(--bs-cyan);
 }
 
 .resume-skill-name {
