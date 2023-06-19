@@ -86,7 +86,7 @@ export class CertificationComponent implements OnInit {
     pullDrag: false,
     dots: true,
     navSpeed: 700,
-    navText: ["<div class='nav-btn prev-slide fa fa-angle-right'></div>", "<div class='nav-btn next-slide fa fa-angle-left'></div>"],
+    navText: ["<div class='nav-btn prev-slide fa fa-angle-left '></div>", "<div class='nav-btn next-slide fa fa-angle-right'></div>"],
     margin: 10,
     responsiveRefreshRate: 5000,
     autoWidth: true,

@@ -12059,6 +12059,7 @@ a.theme-btn-on-bg:active,
 
 .resume-section-content {
   color: #58677c;
+  text-align: justify;
 }
 
 .resume-timeline {
@@ -12101,7 +12102,7 @@ a.theme-btn-on-bg:active,
 .resume-company-name {
   color         : var(--bs-cyan);
   font-size     : 1rem;
-  font-weight   : 600;
+  font-weight   : 500;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -12112,6 +12113,10 @@ a.theme-btn-on-bg:active,
   letter-spacing: 2px;
   text-transform: uppercase;
   color         : var(--bs-teal);
+}
+
+.resume-position-time .badge {
+  font-size     : 0.750rem;
 }
 
 .resume-position-title {
