@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+// For angular version 14
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +13,7 @@ import { HeaderBarComponent } from './component/header-bar/header-bar.component'
 import { CareerObjectiveComponent } from './component/career-objective/career-objective.component';
 import { ProjectExperienceComponent } from './component/project-experience/project-experience.component';
 import { FooterBarComponent } from './component/footer-bar/footer-bar.component';
+import { CertificationComponent } from './component/certification/certification.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,15 @@ import { FooterBarComponent } from './component/footer-bar/footer-bar.component'
     CareerObjectiveComponent,
     ProjectExperienceComponent,
     FooterBarComponent,
+    CertificationComponent,
   ],
   imports: [
     BrowserModule,
     CommonModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,8 @@
 <section class="resume-section skills-section mb-5">
-  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">SKills</h2>
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+    <i class="fa-solid fa-gears"></i>
+    SKills
+  </h2>
   <div class="resume-section-content">
     <div class="resume-skill-item">
       <h4 class="resume-skills-cat font-weight-bold">Frontend</h4>
@@ -48,7 +51,9 @@
 </section><!--//skills-section-->
 
 <section class="resume-section education-section mb-5">
-  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+    <i class="fa-solid fa-graduation-cap"></i>Education
+  </h2>
   <div class="resume-section-content">
     <ul class="list-unstyled">
       <li class="mb-2" *ngFor="let item of myEducation">
@@ -61,7 +66,9 @@
 </section><!--//education-section-->
 
 <section class="resume-section language-section mb-5">
-  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">
+    <i class="fa-solid fa-language"></i>Language
+  </h2>
   <div class="resume-section-content">
     <ul class="list-unstyled resume-lang-list">
       <li class="mb-2" *ngFor="let item of myLanguage">
@@ -73,10 +80,29 @@
 </section><!--//language-section-->
 
 <section class="resume-section interests-section mb-5">
-  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3"><i class="fa-solid fa-heart"></i>Interests
+  </h2>
   <div class="resume-section-content">
     <ul class="list-inline">
       <li class="list-inline-item" *ngFor="let item of myInterest"><span class="badge badge-light">{{item.name}}</span>
+      </li>
+    </ul>
+  </div>
+</section><!--//interests-section-->
+
+<section class="resume-section reference-section mb-5">
+  <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+  <div class="resume-section-content">
+    <ul class="list-unstyled resume-awards-list">
+      <li class="mb-2 ps-4 position-relative">
+          <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+          <div class="resume-award-name">Award Name Lorem</div>
+          <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
+      </li>
+      <li class="mb-0 ps-4 position-relative">
+          <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+          <div class="resume-award-name">Award Name Ipsum</div>
+          <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
       </li>
     </ul>
   </div>
