@@ -2,20 +2,20 @@
   "MyCertificationList": [
     {
       "id": 1,
-      "alt": "Test1",
-      "title": "Test1",
+      "alt": "Apache cordova - Build Hybrid Mobile Apps with HTML, CSS & JS",
+      "title": "Apache cordova - Build Hybrid Mobile Apps with HTML, CSS & JS",
       "scr": "./images/certificate/UC-G28GFYW9.jpg"
     },
     {
       "id": 2,
-      "alt": "Test2",
-      "title": "Test2",
+      "alt": "Angular CLI - Mastring the Basic",
+      "title": "Angular CLI - Mastring the Basic",
       "path": "./images/certificate/UC-G28GFYW9.jpg"
     },
     {
       "id": 3,
-      "alt": "Test3",
-      "title": "Test3",
+      "alt": "Angular Crash Course for Busy Developers",
+      "title": "Angular Crash Course for Busy Developers",
       "path": "./images/certificate/UC-G28GFYW9.jpg"
     },
     {
