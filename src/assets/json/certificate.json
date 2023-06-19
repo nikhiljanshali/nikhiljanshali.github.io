@@ -2,23 +2,27 @@
   "MyCertificationList": [
     {
       "id": 1,
-      "name": "Test1",
-      "path": "../images/certificate/Screenshot_3.png"
+      "alt": "Test1",
+      "title": "Test1",
+      "scr": "./images/certificate/UC-G28GFYW9.jpg"
     },
     {
       "id": 2,
-      "name": "Test2",
-      "path": "../images/certificate/Screenshot_3.png"
+      "alt": "Test2",
+      "title": "Test2",
+      "path": "./images/certificate/UC-G28GFYW9.jpg"
     },
     {
       "id": 3,
-      "name": "Test3",
-      "path": "../images/certificate/Screenshot_3.png"
+      "alt": "Test3",
+      "title": "Test3",
+      "path": "./images/certificate/UC-G28GFYW9.jpg"
     },
     {
       "id": 4,
-      "name": "Test4",
-      "path": "http://localhost:4200/images/certificate/Screenshot_3.png"
+      "alt": "Test4",
+      "title": "Test4",
+      "path": "./images/certificate/UC-G28GFYW9.jpg"
     }
   ]
 }

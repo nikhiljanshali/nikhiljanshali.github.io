@@ -4,6 +4,8 @@ export interface GalleryRoot {
 
 export interface MyCertificationList {
   id: number
-  name: string
+  src: string
+  alt: string
+  title: string
   path: string
 }

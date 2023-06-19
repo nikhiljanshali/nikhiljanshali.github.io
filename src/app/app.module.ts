@@ -14,6 +14,7 @@ import { CareerObjectiveComponent } from './component/career-objective/career-ob
 import { ProjectExperienceComponent } from './component/project-experience/project-experience.component';
 import { FooterBarComponent } from './component/footer-bar/footer-bar.component';
 import { CertificationComponent } from './component/certification/certification.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { CertificationComponent } from './component/certification/certification.
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
