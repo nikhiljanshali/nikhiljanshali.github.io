@@ -14,6 +14,7 @@ export interface MyInfo {
   name: string;
   gender: string;
   company: string;
+  professiona: string;
   email: string[];
   phone: string[];
   address: string;

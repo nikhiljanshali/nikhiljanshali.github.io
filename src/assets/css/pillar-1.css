@@ -12000,8 +12000,8 @@ a.theme-btn-on-bg:active,
 
 .resume-header {
   background: linear-gradient(180deg, #27b6b9 0%, #0f4061 100%);
-  color     : rgba(255, 255, 255, 0.1);
-  height    : 226px;
+  color            : rgba(255, 255, 255, 0.1);
+  height           : 226px;
 }
 
 .resume-header .picture {
@@ -12041,6 +12041,10 @@ a.theme-btn-on-bg:active,
   color        : #434E5E;
 }
 
+.resume-section>h2>svg {
+  padding: 0px 5px;
+}
+
 .resume-section-title {
   font-size: 1.25rem;
   position : relative;
@@ -12058,7 +12062,7 @@ a.theme-btn-on-bg:active,
 }
 
 .resume-section-content {
-  color: #58677c;
+  color     : #58677c;
   text-align: justify;
 }
 
@@ -12116,7 +12120,7 @@ a.theme-btn-on-bg:active,
 }
 
 .resume-position-time .badge {
-  font-size     : 0.750rem;
+  font-size: 0.750rem;
 }
 
 .resume-position-title {
