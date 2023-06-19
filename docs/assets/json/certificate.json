@@ -1,0 +1,28 @@
+{
+  "MyCertificationList": [
+    {
+      "id": 1,
+      "alt": "Test1",
+      "title": "Test1",
+      "scr": "./images/certificate/UC-G28GFYW9.jpg"
+    },
+    {
+      "id": 2,
+      "alt": "Test2",
+      "title": "Test2",
+      "path": "./images/certificate/UC-G28GFYW9.jpg"
+    },
+    {
+      "id": 3,
+      "alt": "Test3",
+      "title": "Test3",
+      "path": "./images/certificate/UC-G28GFYW9.jpg"
+    },
+    {
+      "id": 4,
+      "alt": "Test4",
+      "title": "Test4",
+      "path": "./images/certificate/UC-G28GFYW9.jpg"
+    }
+  ]
+}
