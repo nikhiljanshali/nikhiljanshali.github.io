@@ -4,7 +4,7 @@
   <owl-carousel-o [options]="customOptions">
     <ng-container *ngFor="let slide of myCertificate">
       <ng-template carouselSlide >
-        <img [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
+        <img [src]="slide.src" [alt]="slide.alt" [title]="slide.title"  onContextMenu="return false;">
       </ng-template>
     </ng-container>
   </owl-carousel-o>
