@@ -15,6 +15,9 @@ import { ProjectExperienceComponent } from './component/project-experience/proje
 import { FooterBarComponent } from './component/footer-bar/footer-bar.component';
 import { CertificationComponent } from './component/certification/certification.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ContactUsComponent } from './component/contact-us/contact-us.component';
+import { AddressDetailsComponent } from './component/address-details/address-details.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     ProjectExperienceComponent,
     FooterBarComponent,
     CertificationComponent,
+    ContactUsComponent,
+    AddressDetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +38,9 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    CarouselModule
+    CarouselModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
