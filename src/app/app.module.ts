@@ -17,7 +17,6 @@ import { CertificationComponent } from './component/certification/certification.
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ContactUsComponent } from './component/contact-us/contact-us.component';
-import { AddressDetailsComponent } from './component/address-details/address-details.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { AddressDetailsComponent } from './component/address-details/address-det
     FooterBarComponent,
     CertificationComponent,
     ContactUsComponent,
-    AddressDetailsComponent,
   ],
   imports: [
     BrowserModule,
