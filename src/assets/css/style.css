@@ -11972,12 +11972,12 @@ a.theme-btn-on-bg:active,
 }
 
 .resume-wrapper {
-  padding-top   : 30px;
-  padding-bottom: 60px;
+  padding-top   : unset;
+  padding-bottom: unset;
 }
 
 .resume-wrapper-inner {
-  max-width: 1000px;
+  max-width: 900px;
   border   : 2px solid linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
@@ -12522,3 +12522,6 @@ svg {
   background-size: 100% 100%;
   transform      : translateY(-0.15em);
 }
+
+@import url("media.css");
+/* Using a url */

@@ -1,43 +1,51 @@
-<header class="resume-header pt-1 pt-md-0">
+<header class="resume-header">
   <div class="row">
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="flip-content">
-            <img src="../../../assets/images/developer.gif" alt="Front Image" onContextMenu="return false;">
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <div class="flip-content">
-            <img src="../../../assets//images/profile.jpg" alt="Back Image" onContextMenu="return false;">
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="col">
       <div class="row p-4">
         <div class="primary-info col-auto">
-          <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{detail?.name}}</h1>
-          <div class="title mb-3">{{detail?.profession}}</div>
+          <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">
+            {{ detail?.name }}
+          </h1>
+          <div class="title mb-3">{{ detail?.profession }}</div>
           <ul class="list-unstyled">
             <li class="mb-2" *ngFor="let item of detail?.email">
-              <a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2"
-                  data-fa-transform="grow-3"></i>{{item}}</a>
+              <a class="text-link" href="#"
+                ><i
+                  class="far fa-envelope fa-fw me-2"
+                  data-fa-transform="grow-3"
+                ></i
+                >{{ item }}</a
+              >
             </li>
             <li *ngFor="let item of detail?.phone">
-              <a class="text-link" href="#"> <i class="fas fa-mobile-alt fa-fw me-2"
-                  data-fa-transform="grow-6"></i>{{item}}</a>
+              <a class="text-link" href="#">
+                <i
+                  class="fas fa-mobile-alt fa-fw me-2"
+                  data-fa-transform="grow-6"
+                ></i
+                >{{ item }}</a
+              >
             </li>
           </ul>
-        </div><!--//primary-info-->
+        </div>
+        <!--//primary-info-->
         <div class="secondary-info col-auto mt-2">
           <ul class="resume-social list-unstyled">
-            <li class="mb-3" *ngFor="let item of detail?.tags"><a class="text-link" href="#"><span
-                  class="fa-container text-center me-2"><i ngClass="{{item.iconname}}"
-                    class="fab fa-linkedin-in fa-fw"></i></span>{{item.name}}</a></li>
+            <li class="mb-3" *ngFor="let item of detail?.tags">
+              <a class="text-link" href="#"
+                ><span class="fa-container text-center me-2"
+                  ><i
+                    ngClass="{{ item.iconname }}"
+                    class="fab fa-linkedin-in fa-fw"
+                  ></i></span
+                >{{ item.name }}</a
+              >
+            </li>
           </ul>
-        </div><!--//secondary-info-->
-      </div><!--//row-->
+        </div>
+        <!--//secondary-info-->
+      </div>
+      <!--//row-->
     </div>
   </div>
 </header>
