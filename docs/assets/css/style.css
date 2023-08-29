@@ -82,6 +82,20 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background   : #666;
+  border-radius: 20px;
+}
+
+
 hr {
   margin    : 1rem 0;
   color     : inherit;
@@ -583,6 +597,7 @@ progress {
 .list-unstyled {
   padding-left: 0;
   list-style  : none;
+  line-height : 30px;
 }
 
 .list-inline {
@@ -11971,10 +11986,6 @@ a.theme-btn-on-bg:active,
   position  : relative;
 }
 
-.resume-wrapper {
-  padding: 10px 0;
-}
-
 .resume-wrapper-inner {
   max-width: 900px;
   border   : 2px solid linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -11983,7 +11994,7 @@ a.theme-btn-on-bg:active,
 .resume-header {
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color           : rgba(255, 255, 255, 0.1);
-  height          : 226px;
+  height          : 100%;
 }
 
 .resume-header .picture {
@@ -11994,6 +12005,7 @@ a.theme-btn-on-bg:active,
   font-size     : 2.25rem;
   letter-spacing: 0.175rem;
   font-weight   : 900;
+  padding       : 0px 12px;
 }
 
 .resume-header .title {
@@ -12002,11 +12014,39 @@ a.theme-btn-on-bg:active,
 }
 
 .resume-header a {
-  color: rgba(255, 255, 255, 0.9);
+  color    : rgba(255, 255, 255, 0.9);
+  font-size: 16px;
 }
 
 .resume-header a:hover {
   color: white;
+}
+
+.resume-header-title {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color           : rgba(255, 255, 255, 0.1);
+  height          : 50px;
+}
+
+.resume-header-title h1 {
+  font-weight   : 900;
+  text-transform: uppercase;
+}
+
+.primary-info {
+  padding       : 0px 20px;
+  line-height   : 35px;
+  /* text-align : center; */
+}
+
+.resume-doc-link {
+  display: inline-block;
+  color  : #FFF;
+  padding: 0px 10px;
+}
+
+a.resume-doc-link {
+  text-decoration: none;
 }
 
 
@@ -12182,6 +12222,57 @@ a.theme-btn-on-bg:active,
   }
 }
 
+
+.flip-card {
+  perspective  : 1000px;
+  width        : 260px;
+  margin-bottom: 20px;
+}
+
+.flip-card-inner {
+  position       : relative;
+  width          : 100%;
+  height         : 100%;
+  text-align     : center;
+  transition     : transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position           : absolute;
+  width              : 100%;
+  height             : 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.flip-content {
+  width : 100%;
+  height: 100%;
+}
+
+.flip-content img {
+  width : 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 767.98px) {
+  .flip-card {
+    display: none;
+  }
+
+}
 
 
 
@@ -12470,6 +12561,13 @@ svg {
   box-shadow     : 0 0.5em 0.5em -0.4em #ff923cba;
   background-size: 100% 100%;
   transform      : translateY(-0.15em);
+}
+
+.contact-bar {
+  padding         : 7px 0px;
+  line-height     : 40px;
+  text-align      : center;
+  background-image: linear-gradient(145deg, #667eea 0%, #764ba2 100%);
 }
 
 @import url("media.css");
