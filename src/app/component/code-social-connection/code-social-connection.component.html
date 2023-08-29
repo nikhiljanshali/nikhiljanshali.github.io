@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="primary-info">
+    <span class="resume-doc-link" *ngFor="let item of detail?.tags">
+      <span href="javascript:void(0);" class="fa-container text-center me-2"><i ngClass="{{ item.iconname }}"></i>
+        {{ item.name }}</span>
+    </span>
+  </div>
+</div>

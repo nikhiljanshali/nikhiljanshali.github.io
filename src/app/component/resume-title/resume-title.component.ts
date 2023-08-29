@@ -1,14 +1,15 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { InfoRoot, MyInfo } from 'src/app/common/interface/myinfo';
+import { InfoRoot, MyInfo } from 'src/app/common/interface';
 
 @Component({
-  selector: 'app-header-bar',
-  templateUrl: './header-bar.component.html',
-  styleUrls: ['./header-bar.component.css'],
+  selector: 'app-resume-title',
+  templateUrl: './resume-title.component.html',
+  styleUrls: ['./resume-title.component.css']
 })
-export class HeaderBarComponent implements OnInit {
+export class ResumeTitleComponent implements OnInit {
+
   public infoUrl: string = '/assets/json/mydetails.json';
 
   public myDetailsInfo: MyInfo[] = [];
@@ -16,7 +17,7 @@ export class HeaderBarComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.getMyDetailInfo().subscribe((res) => {
       this.detail = res.MyInfo[0];
     });
@@ -25,4 +26,5 @@ export class HeaderBarComponent implements OnInit {
   getMyDetailInfo(): Observable<InfoRoot> {
     return this.http.get<InfoRoot>(this.infoUrl);
   }
+
 }

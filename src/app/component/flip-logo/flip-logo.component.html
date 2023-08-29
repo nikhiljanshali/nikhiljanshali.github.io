@@ -1,22 +1,15 @@
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <div class="flip-content">
-        <img
-          src="../../../assets/images/Screenshot_10.png"
-          alt="Front Image"
-          onContextMenu="return false;"
-        />
-      </div>
+<div class="tp-wrapper" (click)="toggleFlip()">
+  <div class="tp-box" [@flipState]="flip">
+    <div class="tp-box__side tp-box__front front">
+      <img src="../../../assets//images/Screenshot_15.png">
     </div>
-    <div class="flip-card-back">
-      <div class="flip-content">
-        <img
-          src="../../../assets//images/profile.jpg"
-          alt="Back Image"
-          onContextMenu="return false;"
-        />
-      </div>
+
+    <div class="tp-box__side tp-box__back back">
+      <img src="../../../assets/images/profile.jpg">
     </div>
   </div>
 </div>
+
+<!-- <div class="cam-flip" (click)="toggleFlip()">
+  <img src="https://res.cloudinary.com/dsg-tshq/image/upload/f_auto,q_auto/v1/assets/images/store/orangecamera.svg">
+</div> -->

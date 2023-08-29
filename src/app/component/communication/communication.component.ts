@@ -4,19 +4,20 @@ import { Observable } from 'rxjs';
 import { InfoRoot, MyInfo } from 'src/app/common/interface/myinfo';
 
 @Component({
-  selector: 'app-header-bar',
-  templateUrl: './header-bar.component.html',
-  styleUrls: ['./header-bar.component.css'],
+  selector: 'app-communication',
+  templateUrl: './communication.component.html',
+  styleUrls: ['./communication.component.css']
 })
-export class HeaderBarComponent implements OnInit {
+export class CommunicationComponent implements OnInit {
   public infoUrl: string = '/assets/json/mydetails.json';
 
   public myDetailsInfo: MyInfo[] = [];
   public detail: any;
 
+
   constructor(private http: HttpClient) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.getMyDetailInfo().subscribe((res) => {
       this.detail = res.MyInfo[0];
     });

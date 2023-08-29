@@ -1,0 +1,37 @@
+p {
+    font-family: Lato;
+}
+
+.front img,
+.back img {
+    width : 546px;
+    height: 112px;
+    margin: 0 auto;
+}
+
+
+.tp-wrapper {
+    perspective: 800px;
+}
+
+.tp-box {
+    position       : relative;
+    width          : 550px;
+    height         : 115px;
+    transform-style: preserve-3d;
+    transform      : transform 1s;
+}
+
+.tp-box__side {
+    position           : absolute;
+    backface-visibility: hidden;
+    user-select        : none;
+}
+
+.tp-box__front {
+    transform: rotateY(0deg);
+}
+
+.tp-box__back {
+    transform: rotateY(180deg);
+}
