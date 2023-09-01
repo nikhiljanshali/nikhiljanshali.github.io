@@ -4544,11 +4544,12 @@ fieldset:disabled .btn {
 }
 
 .card-header {
-  padding         : var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
-  margin-bottom   : 0;
-  color           : var(--bs-card-cap-color);
-  background-color: var(--bs-card-cap-bg);
-  border-bottom   : var(--bs-card-border-width) solid var(--bs-card-border-color);
+  padding            : var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+  margin-bottom      : 0;
+  color              : var(--bs-white);
+  /* background-color: var(--bs-card-cap-bg); */
+  background-image   : linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-bottom      : var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 
 .card-header:first-child {
