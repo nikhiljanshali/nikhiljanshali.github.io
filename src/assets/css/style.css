@@ -5071,13 +5071,15 @@ fieldset:disabled .btn {
   color           : var(--bs-progress-bar-color);
   text-align      : center;
   white-space     : nowrap;
-  background-color: var(--bs-progress-bar-bg);
+  background-color: var(--bs-primary);
   transition      : var(--bs-progress-bar-transition);
+  border-radius   : 5px;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .progress-bar {
     transition: none;
+    border-radius: 5px;
   }
 }
 
@@ -11978,11 +11980,6 @@ a.theme-btn-on-bg:active,
 .progress {
   border-radius: 5px;
 }
-
-.theme-progress-bar-dark {
-  background-color: var(--bs-primary);
-}
-
 
 .resume-body {
   background-color: #FFFFFF;

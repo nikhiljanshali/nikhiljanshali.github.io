@@ -10,7 +10,7 @@
         <li class="mb-2" *ngFor="let item of frontEndSkills;">
           <div class="resume-skill-name">{{item.name}}</div>
           <div class="progress resume-progress">
-            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+            <div class="progress-bar" role="progressbar"
               [ngStyle]="{'width': item.percentage + '%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             </div>
           </div>
@@ -24,7 +24,7 @@
         <li class="mb-2" *ngFor="let item of backEndSKills;">
           <div class="resume-skill-name">{{item.name}}</div>
           <div class="progress resume-progress">
-            <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+            <div class="progress-bar" role="progressbar"
               [ngStyle]="{'width': item.percentage + '%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
             </div>
           </div>
