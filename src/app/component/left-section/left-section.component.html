@@ -5,17 +5,14 @@
   </h2>
   <div class="resume-section-content">
     <div class="resume-timeline position-relative">
-      <article
-        class="resume-timeline-item position-relative"
-        *ngFor="let item of workExperience"
-      >
+      <article class="resume-timeline-item position-relative" *ngFor="let item of workExperience">
         <div class="resume-timeline-item-header mb-2">
           <div class="d-flex flex-column flex-md-row">
             <h3 class="resume-position-title font-weight-bold mb-1">
               {{ item.position }}
             </h3>
-            <div class="resume-company-name ms-auto">{{ item.company }}</div>
           </div>
+          <div class="resume-company-name ms-auto">{{ item.company }}</div>
           <!--//row-->
           <div class="resume-position-time">{{ item.year }}</div>
         </div>
@@ -33,11 +30,8 @@
             Technologies used:
           </h4>
           <ul class="list-inline">
-            <li
-              class="list-inline-item"
-              *ngFor="let item of item.technologies_used"
-            >
-              <span class="badge bg-secondary badge-pill">{{ item }}</span>
+            <li class="list-inline-item" *ngFor="let item of item.technologies_used">
+              <span class="badge badge-light">{{ item }}</span>
             </li>
           </ul>
         </div>

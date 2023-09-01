@@ -2064,9 +2064,10 @@ progress {
   vertical-align: bottom;
 }
 
+/*
 .table-group-divider {
   border-top: calc(2 * $table-border-width) solid currentcolor;
-}
+} */
 
 .caption-top {
   caption-side: top;
@@ -4519,9 +4520,10 @@ fieldset:disabled .btn {
 }
 
 .card-body {
-  flex   : 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  color  : var(--bs-card-color);
+  flex       : 1 1 auto;
+  padding    : var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color      : var(--bs-card-color);
+  line-height: 30px;
 }
 
 .card-title {
@@ -4923,9 +4925,9 @@ fieldset:disabled .btn {
   border-color    : var(--bs-pagination-disabled-border-color);
 }
 
-.page-item:not(:first-child) .page-link {
+/* .page-item:not(:first-child) .page-link {
   margin-left: calc($pagination-border-width * -1);
-}
+} */
 
 .page-item:first-child .page-link {
   border-top-left-radius   : var(--bs-pagination-border-radius);
@@ -11982,12 +11984,16 @@ a.theme-btn-on-bg:active,
 
 
 .resume-body {
-  background: white;
-  position  : relative;
+  background-color: #FFFFFF;
+  position        : relative;
+}
+
+.resume-wrapper {
+  padding: 10px 0px;
 }
 
 .resume-wrapper-inner {
-  max-width: 900px;
+  max-width: 1000px;
   border   : 2px solid linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
@@ -12005,7 +12011,7 @@ a.theme-btn-on-bg:active,
   font-size     : 2.25rem;
   letter-spacing: 0.175rem;
   font-weight   : 900;
-  padding       : 0px 12px;
+  padding       : 12px 12px;
 }
 
 .resume-header .title {
@@ -12116,6 +12122,7 @@ a.resume-doc-link {
 .resume-timeline-item-header {
   padding      : 0px 0px 10px 0px;
   border-bottom: 3px dotted var(--bs-primary);
+  line-height  : 30px;
 }
 
 .resume-progress {
@@ -12125,8 +12132,7 @@ a.resume-doc-link {
 .resume-company-name {
   color         : var(--bs-primary);
   font-size     : 1rem;
-  font-weight   : 500;
-  letter-spacing: 2px;
+  font-weight   : 600;
   text-transform: uppercase;
 }
 
@@ -12144,13 +12150,15 @@ a.resume-doc-link {
 .resume-position-title {
   font-size     : 1.125rem;
   font-weight   : 600;
-  letter-spacing: 2px;
   color         : var(--bs-primary);
   text-transform: uppercase;
 }
 
 .resume-timeline-item-desc-heading {
-  font-size: 1rem;
+  font-size     : 1rem;
+  font-weight   : 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .resume-skills-cat {
@@ -12166,8 +12174,10 @@ a.resume-doc-link {
 }
 
 .badge-light {
-  color     : #58677c;
-  background: #F7F8FA;
+  color         : #FFFFFF;
+  background    : #727a9a;
+  font-weight   : 500;
+  letter-spacing: 2px;
 }
 
 .resume-degree {
@@ -12209,7 +12219,7 @@ a.resume-doc-link {
 
 @media (max-width: 767.98px) {
   .resume-wrapper {
-    padding-top: 0;
+    padding: unset;
   }
 
   .resume-header {
@@ -12570,5 +12580,37 @@ svg {
   background-image: linear-gradient(145deg, #667eea 0%, #764ba2 100%);
 }
 
-@import url("media.css");
-/* Using a url */
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #f6f6f6;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .resume-company-name {
+    display: contents;
+  }
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {}
