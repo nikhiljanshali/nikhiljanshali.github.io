@@ -1,10 +1,12 @@
 <div class="row">
   <div class="primary-info">
-    <span class="resume-doc-link" *ngFor="let item of detail?.contact">
-      <i ngClass="{{ item.icon }}"></i>
-      <span class="fa-container text-center me-2">
-        {{ item.value }}
+    <div class="resume-doc-link" *ngFor="let item of detail?.contact">
+      <span *ngIf="item.status">
+        <i ngClass="{{ item.icon }}"></i>
+        <span class="fa-container text-center me-2">
+          {{ item.value }}
+        </span>
       </span>
-    </span>
+    </div>
   </div>
 </div>

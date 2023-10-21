@@ -21,7 +21,6 @@ export class LeftSectionComponent implements OnInit {
   ngOnInit(): void {
     this.getWorkExperience().subscribe((res) => {
       this.workExperience = res.MyWorkExperience;
-      console.log(this.workExperience);
     });
 
   }
