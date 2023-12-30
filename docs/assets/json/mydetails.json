@@ -12,38 +12,43 @@
       "gender": "Male",
       "company": "",
       "profession": "Angular Developer | Software Engineer",
-      "email": [
-        "nikhil.janshali@gmail.com",
-        "nikhil.janshali@hotmail.com"
-      ],
+      "email": ["nikhil.janshali@gmail.com", "nikhil.janshali@hotmail.com"],
       "contact": [
         {
           "id": "1",
           "name": "email1",
           "value": "nikhil.janshali@hotmail.com",
-          "icon": "fa fa-envelope fa-fw"
+          "icon": "fa fa-envelope fa-fw",
+          "status": true
         },
         {
           "id": "2",
           "name": "email2",
           "value": "nikhil.janshali@gmail.com",
-          "icon": "fa fa-envelope fa-fw"
+          "icon": "fa fa-envelope fa-fw",
+          "status": true
         },
         {
           "id": "3",
           "name": "phone1",
           "value": "+91-82384 55699",
-          "icon": "fa fa-mobile-phone fa-fw"
+          "icon": "fa fa-mobile-phone fa-fw",
+          "status": true
         },
         {
           "id": "4",
           "name": "phone2",
           "value": "+91-81411 81287",
-          "icon": "fa fa-mobile-phone fa-fw"
+          "icon": "fa fa-mobile-phone fa-fw",
+          "status": false
         }
       ],
       "address": "1/909, 1st Floor - Shreenath Apartment, Adagara Street, Near Central Bank of India, Opp. Khursha Bakery, Nanpura, Surat - 395001, Gujarat",
-      "about": "Results-driven Angular Developer with 10+ years of experience in designing and developing dynamic web applications. Proficient in using Angular framework, TypeScript, HTML, CSS, and JavaScript to      build scalable and responsive user interfaces. Strong problem-solving skills and a passion for creating      high-quality software solutions.",
+      "careerobjective": [
+        "10 plus years in Web Site design, structure, functionality, configuration, testing, delivery, maintenance, and management and web application design, architecture, implementation, integration, testing, and delivery",
+        "Responsible, intelligent, process-oriented, fast learner and self-starter, problem solver, and motivated to keep current with new technologies and standards and practices",
+        "Possesses excellent communication skills, excels at working independently as well as working as a productive, cooperative, and valued member of a team, able to assume leadership/mentoring roles as well as follow directions and team decisions"
+      ],
       "latitude": 18.316135,
       "longitude": 73.563621,
       "tags": [

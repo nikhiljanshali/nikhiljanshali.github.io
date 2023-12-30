@@ -3,9 +3,12 @@ export interface EducationRoot {
 }
 
 export interface MyEducation {
+  id: number
+  degree: string
+  stream: string
   college: string
   university: string
+  board: string
   percentage: number
-  id: number
   year: string
 }

@@ -2,12 +2,12 @@
   "MySkills": [
     {
       "FrontEnd": [
-        { "name": "Angular 7-10", "percentage": 90, "id": 1 },
+        { "name": "Angular 7-14", "percentage": 90, "id": 1 },
         { "name": "AngularJs", "percentage": 85, "id": 2 },
+        { "name": "Angular Material", "percentage": 80, "id": 6 },
         { "name": "TypeScript", "percentage": 90, "id": 3 },
         { "name": "JavaScript", "percentage": 85, "id": 4 },
         { "name": "RxJs", "percentage": 70, "id": 5 },
-        { "name": "Angular Material", "percentage": 80, "id": 6 },
         { "name": "Lodash", "percentage": 65, "id": 7 },
         { "name": "Radash", "percentage": 20, "id": 8 },
         { "name": "NgRx", "percentage": 60, "id": 9 },
@@ -37,14 +37,23 @@
         { "name": "Grunt", "percentage": 85, "id": 12 }
       ],
       "KeySkill": [
+        { "name": "Client Requirements", "percentage": 85, "id": 7 },
         { "name": "UI & UX Designing", "percentage": 85, "id": 1 },
-        { "name": "Product Delivery", "percentage": 90, "id": 2 },
-        { "name": "Web & Application Development", "percentage": 90, "id": 3 },
-        { "name": "Process Optimization", "percentage": 85, "id": 4 },
+        { "name": "Web & Application Development", "percentage": 85, "id": 3 },
         { "name": "Solution Architecture", "percentage": 85, "id": 5 },
         { "name": "Bug fixing & Troubleshooting", "percentage": 85, "id": 6 },
-        { "name": "Client Requirements", "percentage": 85, "id": 7 },
-        { "name": "Storyboard Development", "percentage": 85, "id": 8 }
+        { "name": "Process Optimization", "percentage": 85, "id": 4 },
+        { "name": "Product Delivery", "percentage": 85, "id": 2 },
+        { "name": "Attention to Detail and Accuracy", "percentage": 85, "id": 8 },
+        { "name": "Adaptability and Flexibility", "percentage": 85, "id": 9 },
+        { "name": "Time Management and Prioritization", "percentage": 85, "id": 10 },
+        { "name": "Collaboration and Cross-Functional Coordination", "percentage": 85, "id": 11 },
+        { "name": "Communication and Presentation Skills", "percentage": 85, "id": 12 },
+        { "name": "Creativity and Innovation", "percentage": 85, "id": 12 },
+        { "name": "Active Learning and Continuous Improvement", "percentage": 85, "id": 12 },
+        { "name": "Teamwork and Interpersonal Skills", "percentage": 85, "id": 12 },
+        { "name": "Empathy and Customer-Centric Mindset", "percentage": 85, "id": 12 },
+        { "name": "Attention to User Experience and Design", "percentage": 85, "id": 12 }
       ]
     }
   ]

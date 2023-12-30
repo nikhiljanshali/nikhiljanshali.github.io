@@ -1,18 +1,22 @@
 {
   "MyEducation": [
     {
+      "id": 1,
+      "degree": "Bachelor of Engineering",
+      "stream": "Computer",
       "college": "Saravajanik College of Engineering and Technology",
       "university": "Veer Narmad South Gujarat Universtiy",
       "percentage": 64,
-      "year":"2008-2011",
-      "id": 1
+      "year": "2008-2011"
     },
     {
+      "id": 2,
+      "degree": "Diploma in Engineering",
+      "stream": "Computer",
       "college": "Tapi Diploma Engineering College",
       "university": "Gujarat Tecnical Board",
       "percentage": 73,
-      "year":"2005-2008",
-      "id": 2
+      "year": "2005-2008"
     }
   ]
 }

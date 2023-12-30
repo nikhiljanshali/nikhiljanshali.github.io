@@ -10,7 +10,7 @@ export interface MyWorkExperience {
   description: string
   achivement_details: string;
   achivements: achivement[]
-  technologies_used: string[]
+  technologies: string[]
 }
 
 export interface achivement {
