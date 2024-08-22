@@ -1,0 +1,171 @@
+@import "./../../../../variables.scss";
+
+.archive {
+  .archive-container {
+    height: 700px;
+    margin: 50px 0 50px 0;
+
+    .archive-info-left {
+      width: 50%;
+      margin-right: -57px;
+      margin-left: 0px;
+      display: table;
+    }
+
+    .archive-info-right {
+      width: 50%;
+      margin-left: -57px;
+      margin-right: 0px;
+      display: table;
+    }
+
+    .archive-box {
+      display: table-cell;
+      vertical-align: middle;
+
+      .feature-archive {
+        font-size: 13px;
+        font-weight: normal;
+        color: $Green;
+        font-family: $CodeFont;
+        margin-top: 10px;
+        padding-top: 0;
+      }
+
+      .archive-name {
+        font-size: 25px;
+        margin: 0 0 20px;
+        position: relative;
+        color: $GreenLight;
+        box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+        -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        position: relative;
+        z-index: 2;
+        padding: 25px;
+        background-color: $LightNavy;
+        border-radius: 3px;
+      }
+
+      .archive-description-box {
+        box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+        -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        position: relative;
+        z-index: 2;
+        padding: 25px;
+        background-color: $LightNavy;
+        color: $LightSlate;
+        font-size: 18px;
+        border-radius: 3px;
+      }
+
+      .archive-skills {
+        position: relative;
+        z-index: 2;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 25px 0 10px;
+        list-style: none;
+
+        li {
+          margin-right: 0;
+          font-family: $CodeFont;
+          font-size: 13px;
+          color: $Slate;
+          margin-bottom: 7px;
+          white-space: nowrap;
+
+          .technology {
+            padding-bottom: 5px;
+          }
+        }
+      }
+
+      .archive-links {
+        margin-top: 10px;
+
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+.card {
+  height: 370px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.card-user {
+  position: absolute;
+  right: -8px;
+  top: -26px;
+  height: 35px;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description h2 {
+  font-size: 22px;
+  color: #0a192f;
+}
+
+.card-description p {
+  font-size: 15px;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.features img {
+  width: 100px;
+}
+
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.padded {
+  padding: 60px 0;
+}

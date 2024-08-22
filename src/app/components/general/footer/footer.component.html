@@ -1,0 +1,26 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "github")' href="" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:nikhil.janshali@hotmail.com" target='_blank'>nikhil.janshali&#64;hotmail.com </a>
+        </div>
+    </div>
+
+    <div class="footer-credits text-center" >
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_nikhiljanshali", "footer", "click")' href="" target="_blank" rel="nofollow noopener noreferrer">
+            <div>Built with Angular by Nikhil Janshali</div>
+        </a>
+    </div>
+
+</footer>

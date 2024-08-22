@@ -1,0 +1,33 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "useDefineForClassFields": false,
+    "paths": {
+      "@urls": ["./src/app/app.urls.ts"],
+      "@shared/*": ["./src/app/shared/*"],
+      "@dynamics/*": ["./src/app/dynamics/*"],
+      "@enums/*": ["./src/app/services/enums/*"],
+      "@guard/*": ["./src/app/services/guards/*"],
+      "@intercepter/*": ["./src/app/services/intercepters/*"],
+      "@model/*": ["./src/app/services/model/*"],
+      "@services/*": ["./src/app/services/*"],
+      "@pipes/*": ["./src/app/dynamics/pipes/*"],
+      "@utilities/*": ["./src/app/dynamics/utilities/*"]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{lesson.Title}}</h4>
+  <!-- <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+  </button> -->
+</div>
+<div class="modal-body">
+  <div class="header-container">
+    <div class="right-div">
+      <div class="card">
+        <div class="card-body">
+          <!-- <h5 class="card-title"><b>Title: </b>{{lesson.Title}}</h5> -->
+          <p class="card-text"><b>Description: </b>{{lesson.Description}}</p>
+          <!-- <div class="row">
+            <div class="col">
+              <p class="card-text"><b>Date: </b>{{lesson.startdate}}</p>
+            </div>
+            <div class="col">
+              <p class="card-text"><b>Week: </b>{{lesson.week}}</p>
+            </div>
+          </div> -->
+          <!-- <p class="card-text"><b>Category: </b>{{lesson.category}}</p>-->
+          <!-- <p class="card-text"><b>Content: </b>{{lesson.Technologies}}</p> -->
+          <ul class="more-proyects-skills">
+            <li *ngFor='let technology of lesson.Technologies'>
+              <span class="underline">{{technology}}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="row">
+    <div class="col-md-4">
+      <img class="card-img-top" src="{{lesson.image}}" alt="Card image cap">
+    </div>
+    <div class="col-md-8">
+      <div class="card lesson-border">
+        <div class="card-body">
+          <h5 class="card-title"><b>Title: </b>{{lesson.Title}}</h5>
+          <p class="card-text"><b>Description: </b>{{lesson.Description}}</p>
+          <div class="row">
+            <div class="col">
+              <p class="card-text"><b>Date: </b>{{lesson.startdate}}</p>
+            </div>
+            <div class="col">
+              <p class="card-text"><b>Week: </b>{{lesson.week}}</p>
+            </div>
+          </div>
+          <p class="card-text"><b>Category: </b>{{lesson.category}}</p>
+          <p class="card-text"><b>Content: </b>{{lesson.lessoncontent}}</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-info " (click)="activeModal.close('Close click')">Close</button>
+</div>
