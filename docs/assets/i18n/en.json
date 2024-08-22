@@ -1,0 +1,642 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Achievement",
+  "Header.Item5": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Nikhil_J_Janshali.pdf",
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "With over <span class='underline'>10 years of experience</span> in web design and development, I have honed my skills in structure, functionality, configuration, testing, delivery, and maintenance. My expertise extends to web application design, architecture, implementation, and integration. I am known for being a responsible, intelligent professional who is process-oriented, a fast learner, and a self-starter. I excel in problem-solving and stay updated with the latest technologies and standards. Possessing excellent communication skills, I work effectively both independently and as a productive team member, capable of taking on leadership and mentoring roles. My motivation and commitment to excellence make me a valuable asset in any professional setting.",
+  "Banner.ActionBtn": "Get in touch",
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "In <span class='underline'>10 years of experience</span> I've covered many roles: <span class='underline'>System Analyst</span>, <span class='underline'>Frontend Developer</span>, <span class='underline'>Backend Developer</span> and <span class='underline'>Technical Leader</span>. I love contributing my knowledge to create new things that help solve problems.",
+    "My capabilities also include implementing improvements in systems, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+    "I also program things for my personal use, whether as a hobby or for utility. I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>ExpressJS, NestJs, MongoDB and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
+    "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+    "Some of the technologies that I have trained and worked on include (but are not limited to):"
+  ],
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Shrun-Tech",
+      "Title": "Angular Tech. Lead",
+      "Date": "May 2023 - Present",
+      "Location": "Ahmedabad",
+      "Description": [
+        "Technical decision leader",
+        "Technical talent recruitment for the company",
+        "Department of Technology team leader",
+        "Creation and maintenance of an internal process management platform for sales courses",
+        "Programming of custom functions and plugins for customization of a WordPress platform",
+        "Implementation of continuous integration and daily backups.",
+        "Planning meetings with reports."
+      ]
+    },
+    {
+      "Tab": "Moon Technolabs",
+      "Title": "Angular Lead",
+      "Date": "Feb 2023 - Jan 2024",
+      "Location": "Ahmedabad",
+      "Description": [
+        "Enhanced Angular application efficiency by 20% through strategic package optimization, eliminating unnecessary components from existing upgrades.",
+        "Directed and oversaw the daily activities of team members, ensuring effective work prioritization and maintaining high quality standards.",
+        "Provided mentorship and coaching to team members, fostering successful performance and skill development.",
+        "Delegated tasks based on project requirements and individual strengths, optimizing resource allocation.",
+        "Collaborated with management to prioritize assignments in alignment with current issues and business priorities.",
+        "Facilitated communication among team members, promoting increased productivity and meeting weekly deadlines.",
+        "Engineered a customized Angular module for a client, reducing development time by 40% and enhancing team productivity by 25%.",
+        "Teamed up with the back-end development team to construct a RESTful API, resulting in a 30% improvement in overall application performance and reduced load times."
+      ]
+    },
+    {
+      "Tab": "Bizsalt Technology Pvt Ltd",
+      "Title": "Sr. Software Consultant",
+      "Date": "Dec 2021 - Jan 2023",
+      "Location": "Surat",
+      "Description": [
+        "Architected, developed, and designed a web application using Angular 10, later migrating it to Angular 12 with TypeScript.",
+        "Played a key role in crafting responsive web design using HTML, CSS, SASS (variables), and Flexbox.",
+        "Implemented Promises and Observables for asynchronous/synchronous services as needed.",
+        "Integrated Telerik & Kendo UI for efficient data representation, filtering, and other UI elements.",
+        "Utilized Lazy loading and parameterization for passing data through the Router module, including activatedRoute.",
+        "Engineered the HTTP client to interact with the server/backend and modularized the application with the Ng Module.",
+        "Employed Angular routers, CanActivate, and CanDeactivate routes for seamless navigation between tiles/pages.",
+        "Developed custom pipes and directives to optimize data transformation for a real-time user experience.",
+        "Implemented NgRx for managing session state, user authentication, and administrative access and functionality.",
+        "Created a notification service utilizing RxJS subjects and SMTP services to send daily stock, sales, and purchase information via email.",
+        "Established cross-component communications using @Output and @Input decorators.",
+        "Collaborated closely with back-end developers to integrate RapNET data, ensuring the availability of the latest details about diamonds to support daily sales and purchase operations.",
+        "Designed and implemented administrative dashboards displaying real-time statistics and pricing using chart.js.",
+        "Conducted manual testing in adherence to the Test Driven Development (TDD) environment after code implementation."
+      ]
+    },
+    {
+      "Tab": "Gateway Group of Companies",
+      "Title": "Sr. Software Developer",
+      "Date": "April 2016 - Nov 2021",
+      "Location": "Ahmedabad",
+      "Description": [
+        "Identified and executed codebase improvements to enhance overall code quality.",
+        "Implemented responsive design principles, utilizing Angular Material, Twitter Bootstrap, CSS/SCSS, and media queries to ensure seamless mobile compatibility for web applications.",
+        "Integrated third-party APIs into web applications through RESTful services and AJAX calls.",
+        "Developed single-page applications using AngularJS, HTML5, CSS3, and JavaScript.",
+        "Engineered reusable components to expedite the development of new features in subsequent projects.",
+        "Led the migration of legacy applications from older technologies to modern frameworks like Angular 8+, contributing to the creation of high-quality code for diverse projects.",
+        "Provided routine coaching and training to newly hired software engineers, offering mentorship for their professional development.",
+        "Leveraged APIs to supply data to web applications, optimizing functionality.",
+        "Managed concurrent involvement in multiple projects, delivering short-term project services.",
+        "Conducted thorough code reviews to ensure adherence to quality standards within development teams.",
+        "Collaborated closely with the graphic designer and H TML coder to establish a clear dependency chain, resulting in a 20% reduction in development time and a 10% increase in overall code quality"
+      ]
+    },
+    {
+      "Tab": "I.B.D.T.D",
+      "Title": "Software Engineer",
+      "Date": "April 2014 - Mar 2016",
+      "Location": "Surat",
+      "Description": [
+        "Provided support for end users by resolving issues related to the deployed applications.",
+        "Collaborated with other developers to integrate multiple systems through APIs.",
+        "Maintained databases by writing S QL queries and stored procedures.",
+        "Used AJAX to create interactive user experiences on websites with partial page updates.",
+        "Collaborated with UI and UX designers to build intuitive user interfaces with modern design.",
+        "Patterns like Material Design or Bootstrap 3.0+ frameworks.",
+        "Developed and implemented ASP.NET web applications using C#, HTML, CSS, JavaScript, and jQuery.",
+        "Implemented authentication methods such as Windows Authentication and Forms-based authentication for secure access to websites.",
+        "Integrated third-party APIs into existing web applications.",
+        "Configured IIS Web Server to host websites and applications.",
+        "Developed custom websites to meet individual client needs.",
+        "Created clean, well-documented custom code and updates."
+      ]
+    },
+    {
+      "Tab": "Jupiter System",
+      "Title": "Web Developer",
+      "Date": "December 2012 - March 2014",
+      "Location": "Surat",
+      "Description": [
+        "Developed and implemented ASP.NET web applications using C#, HTML, CSS, JavaScript jQuery.",
+        "Developed custom websites to meet individual client needs.",
+        "Created clean, well-documented custom code and updates.",
+        "Built responsive layouts using media queries for mobile devices so that content is optimized across all platforms including tablets, and phones.",
+        "Utilized SQL Server Management Studio to develop database objects like stored procedures, triggers, views, and functions.",
+        "Used AJAX to create interactive user experiences on websites with partial page updates.",
+        "Analyzed system requirements from business stakeholders to create technical specifications documents that meet customer needs.",
+        "Created custom controls for web forms to provide a consistent look and feel across the entire website.",
+        "Deployed websites onto IIS 7 and 8 servers using Visual Studio Team Services.",
+        "Renewed domain name registrations.",
+        "Recommended and implemented performance improvements.",
+        "Performed and directed Web site updates.",
+        "Backed up files from websites to local directories for instant recovery."
+      ]
+    },
+    {
+      "Tab": "Matrix Networks & Solutions",
+      "Title": "Jr. Software Developer",
+      "Date": "October 2011 - November 2012",
+      "Location": "Surat",
+      "Description": [
+        "Researched new technologies and frameworks to improve existing systems.",
+        "Performed unit testing on developed applications to ensure functionality before deployment.",
+        "Evaluated third-party libraries and frameworks used in developing applications.",
+        "Collaborated with other developers to design efficient solutions for programming problems.",
+        "Maintained understanding of current web technologies and programming practices through continuing education and participation in professional conferences and workshops."
+      ]
+    }
+  ],
+  "FeatureProjects.Title": "Creative Projects that I was a part of",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Delmonte : Product Management and Sales Monitoring System",
+      "Description": [
+        "Web application for internal company management that covers sales, billing, and extensive and complex tracking departments, made with <span class='underline'>Angular</span> and <span class='underline'>Node.Js</span>."
+      ],
+      "imgs": [
+        "assets/images/delmonte/Delmonte-101.png",
+        "assets/images/delmonte/Delmonte-104.png",
+        "assets/images/delmonte/Delmonte-107.png",
+        "assets/images/delmonte/Delmonte-109.png",
+        "assets/images/delmonte/Delmonte-111.png",
+        "assets/images/delmonte/Delmonte-113.png",
+        "assets/images/delmonte/Delmonte-116.png",
+        "assets/images/delmonte/Delmonte-118.png",
+        "assets/images/delmonte/Delmonte-121.png",
+        "assets/images/delmonte/Delmonte-123.png",
+        "assets/images/delmonte/Delmonte-126.png",
+        "assets/images/delmonte/Delmonte-128.png",
+        "assets/images/delmonte/Delmonte-130.png",
+        "assets/images/delmonte/Delmonte-133.png",
+        "assets/images/delmonte/Delmonte-135.png",
+        "assets/images/delmonte/Delmonte-137.png",
+        "assets/images/delmonte/Delmonte-140.png",
+        "assets/images/delmonte/Delmonte-150.png"
+      ],
+      "Technologies": [
+        "Angular 14",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "SASS",
+        "TypeScript",
+        "RxJs",
+        "Ng Form",
+        "NGX Charts",
+        "Git CI/CD",
+        "ExpressJs",
+        "NodeJs"
+      ]
+    },
+    {
+      "Title": "The KUBE : Digital Hospital Transformation",
+      "Description": "Project aims to revolutionize the  <span class='underline'>healthcare</span> experience by developing a comprehensive digital platform for hospitals. This project will integrate cutting-edge web technologies to streamline hospital operations, enhance patient care, and optimize healthcare management processes.",
+      "imgs": [
+        "assets/images/kube/kube1.png",
+        "assets/images/kube/kube2.png",
+        "assets/images/kube/kube3.png",
+        "assets/images/kube/kube4.png",
+        "assets/images/kube/kube5.png"
+      ],
+      "Technologies": [
+        "Angular 16",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "SASS",
+        "TypeScript",
+        "RxJs",
+        "Ng Form",
+        "NGX Charts",
+        "Sheetjs",
+        "Git CI/CD",
+        "ExpressJs",
+        "NodeJs"
+      ]
+    },
+    {
+      "Title": "Moon Invoice :  Easy Invoice App",
+      "Description": "<span class='underline'>Moon Invoice </span> is an innovative invoice application designed to streamline and optimize the invoicing process. This project was developed with a strong emphasis on collaboration, performance enhancement, and cutting-edge technologies. This projectaims to provide a seamless, efficient, and user-friendly invoicing solution, leveraging the latest technological advancements to meet the needs of modern businesses.",
+      "imgs": [
+        "assets/images/easyinvoice/easyinvoice1.gif",
+        "assets/images/easyinvoice/easyinvoice2.gif",
+        "assets/images/easyinvoice/easyinvoice3.gif",
+        "assets/images/easyinvoice/easyinvoice4.png",
+        "assets/images/easyinvoice/easyinvoice5.png"
+      ],
+      "Technologies": [
+        "Angular 10",
+        "HTML",
+        "CSS",
+        "Angular Material",
+        "TypeScript",
+        "RxJs",
+        "Ng Form",
+        "NGX Charts",
+        "Web-Pack",
+        "Angular Libraries",
+        "PWA",
+        "Service-worker"
+      ]
+    }
+  ],
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Sales & Purchase CRM",
+      "Description": "In-house project aimed at enhancing current sales and procurement processes, integrating an e-commerce portal into a unified, easily accessible software solution. Implementing modular solutions using Angular 10, Bootstrap CSS framework, jQuery, JavaScript, custom CSS, and Flexbox for frontend development, with .NET Core and MongoDB for backend development. Enhanced CSV file import module includes filtering, search functionalities, and direct database integration. Adhered to existing application specifications for seamless integration of new features.",
+      "image": "../../assets/images/illustrations/crm.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/pokemon-angular",
+      "demoLink": "https://projects.nikhiljanshali.com/pokemon-list",
+      "startdate": "December 2021, 07 - August 2022, 30",
+      "week": "38 Weeks",
+      "Technologies": [
+        "Angular 10",
+        "TypeScript",
+        "RxJs",
+        "HTML",
+        "CSS",
+        "SASS",
+        "jQuery",
+        "JavaScript",
+        "Flexbox",
+        "Node.Js API",
+        "MongoDB",
+        "ExpressJs",
+        "Angular Material",
+        "Web-pack",
+        "PWA",
+        "Service-worker",
+        "Bootstrap"
+      ]
+    },
+    {
+      "Title": "Car Leasing System:  Quote Management Application",
+      "Description": "This project involved modernizing an application using Angular 10, Angular Material, Flex Module, Redux, RxJs, RxWeb-Angular, Web API, and Microservices. It automates the leasing process for employee vehicles.",
+      "image": "../../assets/images/illustrations/cab_leasing.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/coming-soon-page",
+      "demoLink": "https://projects.nikhiljanshali.com/coming-soon-page",
+      "startdate": " - December 2021, 07",
+      "week": "38 Weeks",
+      "Technologies": [
+        "Angular 10",
+        "HTML",
+        "CSS",
+        "Angular Material",
+        "TypeScript",
+        "RxJs",
+        "RxWeb Form",
+        "NGX Charts",
+        "Web-Pack",
+        "Angular Libraries",
+        "PWA",
+        "Service-worker",
+        "SASS",
+        "CSS GRID",
+        "Reactive form"
+      ]
+    },
+    {
+      "Title": "Fleet Manager Utility App",
+      "Description": "Upgrade Fleet Management App from V1 to V2, incorporating new features such as quote management, fleet management tools, driver and supplier modules, etc. The primary objective is to enhance and update existing functionalities while integrating additional features to expand support according to client specifications.",
+      "image": "../../assets/images/illustrations/fleet.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/fourd-card-feature-section",
+      "demoLink": "https://projects.nikhiljanshali.com/four-card-feature-section",
+      "startdate": "",
+      "week": "",
+      "Technologies": [
+        "Angular 9",
+        "HTML",
+        "CSS",
+        "Ionic",
+        "JavaScript",
+        "Ajax",
+        "Gulp",
+        "Grunt",
+        "Cordova",
+        "Cordova Plugins"
+      ]
+    },
+    {
+      "Title": "Sytner Digital Transformation: Dealer System",
+      "Description": "The primary objective is to create a responsive application that functions seamlessly across web and mobile platforms. The application enables users to utilize Google Maps to locate nearby garages, book appointments for car servicing, and communicate directly with the service providers. Users can select from a variety of services offered by the garage or service station and track the entire service process from start to finish. Additionally, users have the option to rent a car while their own vehicle is being serviced and make payments through the application.",
+      "image": "../../assets/images/illustrations/car-service-booking.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/fourd-card-feature-section",
+      "demoLink": "https://projects.nikhiljanshali.com/four-card-feature-section",
+      "startdate": "",
+      "week": "",
+      "Technologies": [
+        "Angular 9",
+        "SASS",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WebPack",
+        "Gulp",
+        "Grunt",
+        "Cordova",
+        "Cordova Plugins",
+        "CSS GRID"
+      ]
+    },
+    {
+      "Title": "Car Service Booking - OLB Front & Back Office",
+      "Description": "As the lead Front-End Developer, I played a key role in transforming a non-functional prototype (NFP) back office into a fully operational application. Using Angular and Bootstrap, I developed robust interfaces for the NFP, enhancing its usability and functionality. Additionally, I independently created a front office application that seamlessly integrated as a hybrid app within a client's website using iframes. The Back Office system consisted of several essential modules including Appointment Management, Service Catalog, Mechanic Management, Dealer Management, Brand and Model Catalogs, and Role and Site Administration. The Front Office application was designed as a user-friendly wizard process, consolidating data from all back office modules to streamline appointment bookings. This process included selecting services, brands, models, mechanics, and dealers, ensuring a cohesive and efficient user experience.",
+      "image": "../../assets/images/illustrations/car_booking.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/social-proof-section",
+      "demoLink": "https://projects.nikhiljanshali.com/social-proof-section",
+      "startdate": "",
+      "week": "",
+      "Technologies": [
+        "Angular 7",
+        "HTML",
+        "CSS3",
+        "CSS GRID",
+        "Azure Web API",
+        "Asp.net 4.5 Framework",
+        "SQL Server 2014",
+        "IIS",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "UI Component Library",
+      "Description": "In this project, our primary objective is to develop theme-based components tailored to meet tenant requirements. Based on Azure site configurations, we will implement necessary modifications to prepare tenant sites. Our focus is on creating reusable components that can be utilized across various contexts and support multilingual capabilities.",
+      "image": "../../assets/images/illustrations/Ui_Component_Library.png",
+      "ghLink": "https://github.com/nikhiljanshali/faq-accordion",
+      "demoLink": "https://proyectos.nikhiljanshali.com/faq-accordion",
+      "Technologies": [
+        "Angular 7",
+        "HTML",
+        "CSS3",
+        "CSS GRID",
+        "Azure Web API",
+        "Asp.net 4.5 Framework",
+        "Cosmos DB and Sofico Miles",
+        "Angular animations"
+      ]
+    },
+    {
+      "Title": "Clockwork Connect: Recruitment Application",
+      "Description": "Recruitment application leveraging Progressive Web App (PWA) principles, developed in pure JavaScript and utilizing the Sammy.js framework for class-based routing. The application supports three primary user roles: staffing company, consultant, and candidate, each with tailored functionalities",
+      "image": "../../assets/images/illustrations/clock-work-connect.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "PWA",
+        "JavaScript",
+        "JQuery",
+        "JQueryUI",
+        "SammyJs",
+        "Web API (Azure API)",
+        "KendoUI",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "Salesforce : automation of Procurement, Repacking & Warehousing processes",
+      "Description": "AscentERP implemented a Salesforce-based application tailored for the procurement, repackaging, and warehousing processes of a prominent UK-based Pharmaceutical company, specializing in Europe-wide Parallel Imports.",
+      "image": "../../assets/images/illustrations/About-Ascent-Solutions-Top-Rated-Cloud-ERP-on-Salesforce-AppExchange-1.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "Apex",
+        "SOQL",
+        "Salesforce.com",
+        "Force.com",
+        "Ascent ERP",
+        "Enabler4Excel",
+        "Conga Report",
+        "Conga Action Grid"
+      ]
+    },
+    {
+      "Title": "Salesforce : Managing Campaigns, Hand Written Notes",
+      "Description": "In this project, I focused on Salesforce Lightning component development. I utilized the Salesforce Lightning Design System (SLDS) library to convert standard Visualforce pages into Lightning-ready pages. This transition ensures seamless switching between Salesforce Classic and Lightning Experience, maintaining consistent user interface and functionality across platforms.",
+      "image": "../../assets/images/illustrations/catchall-campaign.png",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "Visualforce Page",
+        "Apex",
+        "Salesforce.com",
+        "Force.com",
+        "LWC (Lighting web component)",
+        "JavaScript",
+        "JQuery",
+        "Bootstrap"
+      ]
+    },
+    {
+      "Title": "Backgammon - A Board Game",
+      "Description": "This gaming project allows users to register and participate in multiplayer games where they can compete against both other users and AI-controlled robots. Players can enjoy gaming for entertainment or choose to play with real money, engaging in diverse levels of challenge and excitement.",
+      "image": "../../assets/images/illustrations/backgammon-7369116_1280.jpg",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "AngularJs",
+        "JavaScript",
+        "JQuery",
+        "NodeJs",
+        "HTML5",
+        "CSS3",
+        "CSS Animation",
+        "ASP.Net 4.5",
+        "Signal-R",
+        "Image- Sprite",
+        "SQL Server 2014",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "Grooup Room - Project Mangement & Organization Collaborative App",
+      "Description": "This project involves developing a versatile multitasking application that facilitates collaboration among users through features such as sharing, chatting, file sharing, and task assignment. The application will include distinct phases for different user roles: Patient, Doctor, and Admin.",
+      "image": "../../assets/images/illustrations/squidhub-2.webp",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "AngularJS",
+        "Angular Material",
+        "JavaScript",
+        "JQuery",
+        "HTML",
+        "CSS3",
+        "SocketIO",
+        "Sass",
+        "Gulp",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "Doctor Stay - Patient & Clinical System",
+      "Description": "In this project, we have developed a comprehensive Patient Management System with distinct phases for Patients, Doctors, and Admins. The system facilitates patients in booking appointments with registered doctors and allows doctors to manage patient profiles, digital prescriptions, and patient history. Additionally, the admin phase supports verification processes, subscription management, and application promotions.",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "JavaScript",
+        "AngularJs (1.x)",
+        "JQueryUI",
+        "SOAP base Web API",
+        "SQL server 2012",
+        "Asp.net Framework 4.0",
+        "C#",
+        "XML",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "RecruitBazaar - Job Management System",
+      "Description": "In this project, we are developing a console application that facilitates the sending of bulk emails. The application features a function that captures email addresses and sends festival greetings from the master application settings. As an additional application or plugin, it enables sending emails to a list of users, including an Excel sheet attachment generated by the existing system. This project comprises three modules: company, consultant, and candidate. It includes features such as job posting, candidate hiring, MCQ tests, CV review, and interview scheduling. Access to these features is role-based. We use Angular for the front-end/presentation layer, and ASP.NET with a SQL Server for back-end support.",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "JavaScript",
+        "AngularJs (1.x)",
+        "JQueryUI",
+        "SOAP base Web API",
+        "SQL server 2012",
+        "Asp.net Framework 4.0",
+        "C#",
+        "XML",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "Custom CMS - Portfolio Management System",
+      "Description": "This project involves the development of two distinct websites: one for the company portal and another for the company's client portal. Additionally, we will create basic themes and logos for both the company and its clients. A cPanel will be provided for managing products, services, and other details to be showcased digitally.",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "ASP.NET (C#)",
+        "SQL server 2010",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JQuery",
+        "Bootstrap",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "Report Board - Report Management System",
+      "Description": "This web application communicates with a server-stored database to generate comprehensive reports. The system includes the following modules: Query Builder: Allows users to create custom database queries. Report Generation: Provides reports in an HTML view. Export Functionality: Supports exporting reports to Excel and PDF formats.",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "ASP.NET (C#)",
+        "SQL server 2010",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JQuery",
+        "Bootstrap",
+        "Telerik UI",
+        "AJAX"
+      ]
+    },
+    {
+      "Title": "Email Plug",
+      "Description": "In this project, we are developing a console application that has the functionality to send bulk emails based on a function that captures email addresses. Additionally, it is utilized to send festival greetings from the master application settings. As an add-on application or plugin, it helps to send emails to a list of users with an attachment of an Excel sheet generated by the existing system.",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "C#.Net",
+        "SVN"
+      ]
+    },
+    {
+      "Title": "Leave Management System",
+      "Description": "The system enables employees to create leave requests and submit them to relevant authorities, including the HR Manager, Project Manager, Department Head, and Team Leader. The platform allows designated approvers to either approve or reject leave requests. If a request receives the majority of approvals, the leave is sanctioned. Conversely, if the majority rejects the request, it is canceled.",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "ASP.NET (C#)",
+        "SQL server 2008",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "GIT"
+      ]
+    },
+    {
+      "Title": "Lab Management System - Soil & Material Test & Report Management",
+      "Description": "The system facilitates the calculation of observation values and conclusions from material tests conducted by the machine. It also generates testing reports for both builders and company records. Based on the client's testing equations, test values are stored in a database. Multiple tests can be conducted on the same material to ensure optimal results.",
+      "ghLink": "https://github.com/nikhiljanshali/profile-card-component",
+      "demoLink": "https://proyectos.nikhiljanshali.com/profile-card-component",
+      "Technologies": [
+        "ASP.NET (C#)",
+        "C#",
+        "HTML",
+        "CSS",
+        "SQL Server Management",
+        "GIT",
+        "JavaScript",
+        "Bootstrap"
+      ]
+    }
+  ],
+  "Certificate.Title": "Certificate",
+  "Certificate.Projects": [
+    {
+      "Title": "Angular CLI - Mastring the Basics",
+      "Description": [],
+      "imgs": [
+        "assets/images/Certificate/Certificate-2.jpg"
+      ]
+    },
+    {
+      "Title": "Angular Crash Course for Busy Developer",
+      "imgs": [
+        "assets/images/Certificate/Certificate-3.jpg"
+      ]
+    },
+    {
+      "Title": "Progressive Web App",
+      "imgs": [
+        "assets/images/Certificate/Certificate-4.jpg"
+      ]
+    },
+    {
+      "Title": "The Complete Angular Course : Begineer to Advance",
+      "imgs": [
+        "assets/images/Certificate/Certificate-5.jpg"
+      ]
+    },
+    {
+      "Title": "ExpressJs Fundamentals",
+      "imgs": [
+        "assets/images/Certificate/Certificate-6.jpg"
+      ]
+    },
+    {
+      "Title": "React Fundamentals",
+      "imgs": [
+        "assets/images/Certificate/Certificate-7.jpg"
+      ]
+    },
+    {
+      "Title": "Apache Cordova - Build Hybrid Mobile Apps with HTML, CSS & Js",
+      "imgs": [
+        "assets/images/Certificate/Certificate-1.jpg"
+      ]
+    },
+    {
+      "Title": "Team Leadership and Team Management",
+      "imgs": [
+        "assets/images/Certificate/Certificate-8.png"
+      ]
+    },
+    {
+      "Title": "React JS Tutorial",
+      "imgs": [
+        "assets/images/Certificate/Certificate-9.png"
+      ]
+    }
+  ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+  "Contact.Btn": "Say Hello"
+}
