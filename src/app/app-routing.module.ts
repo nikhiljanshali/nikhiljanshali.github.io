@@ -5,14 +5,15 @@ import { ArchiveComponent } from './components/archive/archive.component';
 
 const routes: Routes = [
 
-  {path: ':language?',      component: HomeComponent},
-  {path: ':language?/proyectos',   component: ArchiveComponent},
+  // { path: ':language?', component: HomeComponent },
+  // { path: ':language?/proyectos', component: ArchiveComponent },
+  { path: '', component: HomeComponent },
 
   // {path: 'profile'        ,   component: ProfileComponent         , canActivate: [AuthGuard]},
   // {path: 'users'          ,   component: UsersComponent           , canActivate: [AuthGuard]},
   // {path: 'register-user'  ,   component: RegisterUserComponent    , canActivate: [AuthGuard]},
 
-  {path: '**', pathMatch: 'full', redirectTo: '/'},
+  { path: '**', pathMatch: 'full', redirectTo: '/' },
 
 ];
 
