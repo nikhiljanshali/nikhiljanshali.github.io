@@ -10,7 +10,7 @@
             "sourceRoot": "src",
             "prefix": "app",
             "i18n": {
-                "sourceLocale": "en",
+                "sourceLocale": "es",
                 "locales": {
                     "en-US": "src/locale/messages.en.xlf"
                 }
@@ -19,7 +19,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "docs",
+                        "outputPath": "dist/nikhiljanshali-portfolio",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
@@ -85,18 +85,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "buildTarget": "nikhiljanshali-portfolio:build"
+                      "buildTarget": "nikhiljanshali-portfolio:build"
                     },
                     "configurations": {
                         "production": {
-                            "buildTarget": "nikhiljanshali-portfolio:build:production"
+                          "buildTarget": "nikhiljanshali-portfolio:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                        "buildTarget": "nikhiljanshali-portfolio:build"
+                      "buildTarget": "nikhiljanshali-portfolio:build"
                     }
                 },
                 "test": {
