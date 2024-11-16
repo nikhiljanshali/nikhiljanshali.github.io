@@ -22,7 +22,7 @@
     {
       "Tab": "Shrun-Tech",
       "Title": "Angular Tech. Lead",
-      "Date": "May 2023 - Present",
+      "Date": "Oct 2023 - Present",
       "Location": "Ahmedabad",
       "Description": [
         "Technical decision leader",
@@ -37,7 +37,7 @@
     {
       "Tab": "Moon Technolabs",
       "Title": "Angular Lead",
-      "Date": "Feb 2023 - Jan 2024",
+      "Date": "Feb 2023 - Sep 2023",
       "Location": "Ahmedabad",
       "Description": [
         "Enhanced Angular application efficiency by 20% through strategic package optimization, eliminating unnecessary components from existing upgrades.",
@@ -73,9 +73,28 @@
       ]
     },
     {
+      "Tab": "NINtec",
+      "Title": "Sr. Software Consultant",
+      "Date": "May 2021 - Nov 2023",
+      "Location": "Ahmedabad",
+      "Description": [
+        "Identified and executed codebase improvements to enhance overall code quality.",
+        "Implemented responsive design principles, utilizing Angular Material, Twitter Bootstrap, CSS/SCSS, and media queries to ensure seamless mobile compatibility for web applications.",
+        "Integrated third-party APIs into web applications through RESTful services and AJAX calls.",
+        "Developed single-page applications using AngularJS, HTML5, CSS3, and JavaScript.",
+        "Engineered reusable components to expedite the development of new features in subsequent projects.",
+        "Led the migration of legacy applications from older technologies to modern frameworks like Angular 8+, contributing to the creation of high-quality code for diverse projects.",
+        "Provided routine coaching and training to newly hired software engineers, offering mentorship for their professional development.",
+        "Leveraged APIs to supply data to web applications, optimizing functionality.",
+        "Managed concurrent involvement in multiple projects, delivering short-term project services.",
+        "Conducted thorough code reviews to ensure adherence to quality standards within development teams.",
+        "Collaborated closely with the graphic designer and H TML coder to establish a clear dependency chain, resulting in a 20% reduction in development time and a 10% increase in overall code quality"
+      ]
+    },
+    {
       "Tab": "Gateway Group of Companies",
       "Title": "Sr. Software Developer",
-      "Date": "April 2016 - Nov 2021",
+      "Date": "April 2016 - May 2021",
       "Location": "Ahmedabad",
       "Description": [
         "Identified and executed codebase improvements to enhance overall code quality.",
