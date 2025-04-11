@@ -48,17 +48,20 @@
   "Experience.Jobs": [
     {
       "Tab": "Shrun-Tech",
-      "Title": "Angular Tech. Lead",
+      "Title": "Angular Technical Lead",
       "Date": "Oct 2023 - Present",
       "Location": "Ahmedabad",
       "Description": [
-        "Technical decision leader",
-        "Technical talent recruitment for the company",
-        "Department of Technology team leader",
-        "Creation and maintenance of an internal process management platform for sales courses",
-        "Programming of custom functions and plugins for customization of a WordPress platform",
-        "Implementation of continuous integration and daily backups.",
-        "Planning meetings with reports."
+        "Leading front-end architecture using Angular, RxJS, and TypeScript to develop scalable and maintainable enterprise applications.",
+        "Providing hands-on technical support and code reviews to ensure clean, reusable, and optimized code across the development team.",
+        "Serving as team lead for a cross-functional group of frontend and backend developers, managing task allocation, mentoring, and performance evaluation.",
+        "Collaborating with stakeholders to define project goals, timelines, and architectural decisions.",
+        "Recruiting technical talent by conducting technical interviews and screening processes, ensuring alignment with team culture and project needs.",
+        "Spearheading the design and development of an internal process management platform for sales training using Angular, Node.js, and MongoDB.",
+        "Extending WordPress functionality through the creation of custom plugins and integrating RESTful APIs to support hybrid content delivery.",
+        "Establishing CI/CD pipelines via GitHub Actions for seamless deployment workflows and automated testing.",
+        "Managing cloud backups, version control, and disaster recovery strategies to ensure data integrity and system uptime.",
+        "Conducting sprint planning, daily standups, and retrospective meetings to improve productivity and collaboration within the team."
       ]
     },
     {
@@ -67,14 +70,15 @@
       "Date": "Feb 2023 - Sep 2023",
       "Location": "Ahmedabad",
       "Description": [
-        "Enhanced Angular application efficiency by 20% through strategic package optimization, eliminating unnecessary components from existing upgrades.",
-        "Directed and oversaw the daily activities of team members, ensuring effective work prioritization and maintaining high quality standards.",
-        "Provided mentorship and coaching to team members, fostering successful performance and skill development.",
-        "Delegated tasks based on project requirements and individual strengths, optimizing resource allocation.",
-        "Collaborated with management to prioritize assignments in alignment with current issues and business priorities.",
-        "Facilitated communication among team members, promoting increased productivity and meeting weekly deadlines.",
-        "Engineered a customized Angular module for a client, reducing development time by 40% and enhancing team productivity by 25%.",
-        "Teamed up with the back-end development team to construct a RESTful API, resulting in a 30% improvement in overall application performance and reduced load times."
+        "Led a high-performing Angular team to deliver enterprise-grade applications, applying best practices in component architecture, lazy loading, and state management using NgRx.",
+        "Improved application performance by 20% through strategic Angular package optimization, tree-shaking, and module refactoring, eliminating redundant libraries from legacy codebases.",
+        "Architected and delivered a custom Angular module for a major client, accelerating development cycles by 40% and improving team productivity by 25%.",
+        "Worked cross-functionally with backend engineers to design and integrate RESTful APIs, resulting in a 30% improvement in response times and smoother frontend-backend communication.",
+        "Provided ongoing technical mentorship and support to junior and mid-level developers, conducting code reviews, pair programming, and Angular workshops to build team capabilities.",
+        "Oversaw sprint planning, daily stand-ups, and retrospectives while aligning deliverables with evolving business priorities through close collaboration with project managers.",
+        "Delegated and monitored task execution based on team member strengths, optimizing productivity and accountability across multiple simultaneous projects.",
+        "Created reusable Angular components and shared UI libraries to accelerate onboarding and maintain visual consistency across the platform.",
+        "Streamlined collaboration through enhanced team communication practices, ensuring timely delivery and adherence to Agile methodologies."
       ]
     },
     {

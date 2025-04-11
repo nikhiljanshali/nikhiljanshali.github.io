@@ -1,6 +1,6 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-import { trigger, state, style, animate, transition, stagger, query } from "@angular/animations"
+import { trigger, style, animate, transition, stagger, query } from "@angular/animations"
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { Title } from '@angular/platform-browser';
 
@@ -48,7 +48,6 @@ export class BannerComponent implements OnInit {
     private titleService: Title,
     public analyticsService: AnalyticsService
   ) {
-    this.titleService.setTitle('Welcome to NJ')
   }
 
   ngOnInit(): void {

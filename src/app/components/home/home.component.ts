@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
@@ -10,8 +11,10 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class HomeComponent implements OnInit {
 
   constructor(
-    private analyticsService: AnalyticsService,
+    private titleService: Title,
+    public analyticsService: AnalyticsService
   ) {
+    this.titleService.setTitle('Nikhil Janshali | Frontend Developer');
   }
 
   ngOnInit(): void {

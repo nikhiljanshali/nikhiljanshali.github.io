@@ -13,7 +13,6 @@ export class AboutComponent implements OnInit {
     private titleService: Title,
     public analyticsService: AnalyticsService
   ) {
-    this.titleService.setTitle('About Me | Home')
   }
 
   ngOnInit(): void {

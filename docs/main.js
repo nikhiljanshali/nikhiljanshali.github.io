@@ -833,7 +833,6 @@ class AboutComponent {
   constructor(titleService, analyticsService) {
     this.titleService = titleService;
     this.analyticsService = analyticsService;
-    this.titleService.setTitle('About Me | Home');
   }
   ngOnInit() {}
   static #_ = this.ɵfac = function AboutComponent_Factory(t) {
@@ -914,7 +913,6 @@ class BannerComponent {
     this.typingSpeed = 100;
     this.deletingSpeed = 100;
     this.delayBetweenPhrases = 2000;
-    this.titleService.setTitle('Welcome to NJ');
   }
   ngOnInit() {
     this.type();
@@ -1197,6 +1195,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   HomeComponent: () => (/* binding */ HomeComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 7580);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser */ 436);
 /* harmony import */ var src_app_services_analytics_analytics_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/services/analytics/analytics.service */ 213);
 /* harmony import */ var _banner_banner_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./banner/banner.component */ 155);
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about/about.component */ 2541);
@@ -1214,15 +1213,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 class HomeComponent {
-  constructor(analyticsService) {
+  constructor(titleService, analyticsService) {
+    this.titleService = titleService;
     this.analyticsService = analyticsService;
+    this.titleService.setTitle('Nikhil Janshali | Frontend Developer');
   }
   ngOnInit() {
     this.analyticsService.sendAnalyticPageView("/home", "I enter into new begining...");
   }
   static #_ = this.ɵfac = function HomeComponent_Factory(t) {
-    return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](src_app_services_analytics_analytics_service__WEBPACK_IMPORTED_MODULE_0__.AnalyticsService));
+    return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__.Title), _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](src_app_services_analytics_analytics_service__WEBPACK_IMPORTED_MODULE_0__.AnalyticsService));
   };
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineComponent"]({
     type: HomeComponent,
