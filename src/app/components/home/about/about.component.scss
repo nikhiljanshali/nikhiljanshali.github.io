@@ -16,7 +16,7 @@
 
         &:after {
             content: '';
-            border: 2px solid $Green;
+            // border: 2px solid $Green;
             z-index: 0;
             display: block;
             position: relative;
@@ -36,8 +36,8 @@
 
     .skills-list {
         display: grid;
-        grid-template-columns: repeat(2, minmax(140px, 200px));
-        overflow: hidden;
+        grid-template-columns: repeat(5, minmax(230px, 200px));
+        // overflow: hidden;
         padding: 0;
         margin: 20px 0 0 0;
         list-style: none;

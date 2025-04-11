@@ -17,6 +17,33 @@
     "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
     "Some of the technologies that I have trained and worked on include (but are not limited to):"
   ],
+  "AboutMe.Technologies": [
+    "Angular",
+    "Typescript",
+    "Javascript",
+    "RxJs",
+    "Redux",
+    "NxRx",
+    "NodeJS",
+    "MongoDB",
+    "Mysql",
+    "ExpressJS",
+    "NestJS",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Tailwind",
+    "Angular Material",
+    "Materialize",
+    "Semantic UI",
+    "SyncFusion",
+    "KendoUI",
+    "Bulma",
+    "Sass",
+    "Tailwind",
+    "Git",
+    "Jasmine / Karma (TDD)"
+  ],
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
@@ -596,7 +623,7 @@
       ]
     }
   ],
-  "Certificate.Title": "Achievements & Certificates", 
+  "Certificate.Title": "Achievements & Certificates",
   "Certificate.Projects": [
     {
       "Title": "Angular CLI - Mastring the Basics",
