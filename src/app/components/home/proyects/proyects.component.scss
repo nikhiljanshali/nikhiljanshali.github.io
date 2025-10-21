@@ -2,19 +2,19 @@
 
 .proyects {
   .proyect-container {
-    height: 360px;
+    height: 500px;
     margin: 50px 0 50px 0;
 
     .proyect-info-left {
       width: 50%;
-      margin-right: -57px;
+      margin-right: 20px;
       margin-left: 0px;
       display: table;
     }
 
     .proyect-info-right {
       width: 50%;
-      margin-left: -57px;
+      margin-left: 20px;
       margin-right: 0px;
       display: table;
     }
@@ -33,7 +33,8 @@
       }
 
       .proyect-name {
-        font-size: 25px;
+        font-size: 20px;
+        text-align: center;
         margin: 0 0 20px;
         position: relative;
         z-index: 2;
@@ -57,11 +58,14 @@
         padding: 25px;
         background-color: $LightNavy;
         color: $LightSlate;
-        font-size: 18px;
+        font-size: 13px;
         border-radius: 3px;
       }
 
       .proyect-skills {
+        box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+        background-color: #112240;
+        padding: 10px;
         position: relative;
         z-index: 2;
         display: -webkit-box;

@@ -1,116 +1,126 @@
 @import "./../../../../variables.scss";
 
 .about {
+  .about-description {
+    margin-top: 30px;
+    max-width: 100%;
+    width: 100%;
+    // text-align: justify;
+    text-justify: inter-word;
+  }
 
-    .about-description {
-        margin-top: 30px;
-        max-width: 100%;
-        width: 100%;
-        // text-align: justify;
-        text-justify: inter-word;
+  .about-img-container {
+    width: 324px;
+    margin: auto;
+
+    &:after {
+      content: "";
+      // border: 2px solid $Green;
+      z-index: 0;
+      display: block;
+      position: relative;
+      width: 394px;
+      height: 400px;
+      border-radius: 3px;
+      bottom: 380px;
+      left: 23px;
     }
 
-    .about-img-container {
-        width: 324px;
-        margin: auto;
+    img {
+      z-index: 2;
+      position: relative;
+    }
+  }
 
-        &:after {
-            content: '';
-            // border: 2px solid $Green;
-            z-index: 0;
-            display: block;
-            position: relative;
-            width: 394px;
-            height: 400px;
-            border-radius: 3px;
-            bottom: 380px;
-            left: 23px;
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(230px, 200px));
+    // overflow: hidden;
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+  }
 
-        }
+  .skill-element {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    font-family: $CodeFont;
+    color: $Slate;
 
-        img {
-            z-index: 2;
-            position: relative;
-        }
+    span {
+      padding-bottom: 5px;
     }
 
-    .skills-list {
-        display: grid;
-        grid-template-columns: repeat(5, minmax(230px, 200px));
-        // overflow: hidden;
-        padding: 0;
-        margin: 20px 0 0 0;
-        list-style: none;
+    &:before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: $Green;
+      font-size: 14px;
+      line-height: 12px;
     }
-
-    .skill-element {
-        position: relative;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        font-size: 13px;
-        font-family: $CodeFont;
-        color: $Slate;
-
-        span {
-            padding-bottom: 5px;
-        }
-
-        &:before {
-            content: '▹';
-            position: absolute;
-            left: 0;
-            color: $Green;
-            font-size: 14px;
-            line-height: 12px;
-        }
-    }
-
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1300px) {
+  .about-img-container {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    .about-img-container img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .about-img-container:after {
+      width: 200px;
+      height: 200px;
+      bottom: 190px;
+      left: 74px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
     .about-img-container {
-        margin-left: auto;
-        margin-right: 0;
+      width: 100%;
+
+      img {
+        width: 180px;
+        height: 180px;
+      }
+
+      &:after {
+        display: none;
+      }
     }
-}
-
-@media (max-width: 500px) {
-    .about {
-        .about-img-container img {
-            width: 200px;
-            height: 200px;
-        }
-
-        .about-img-container:after {
-            width: 200px;
-            height: 200px;
-            bottom: 190px;
-            left: 74px;
-        }
-    }
-}
-
-@media (max-width: 500px) {
-    .about {
-
-        .about-img-container {
-            width: 100%;
-
-            img {
-                width: 180px;
-                height: 180px;
-            }
-
-            &:after {
-                display: none;
-            }
-        }
-    }
+  }
 }
 
 .inline-icon {
-    width: 28px;
-    height: 28px;
-    margin-left: 6px;
-    vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* optional */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
 }
