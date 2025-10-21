@@ -67,8 +67,8 @@
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
-      "Tab": "Shrun-Tech",
-      "Title": "Angular Tech Lead",
+      "Tab": "Shruntech Solutions Pvt Ltd",
+      "Title": "Development Team Lead (Angular)",
       "Date": "Oct 2023 - Present",
       "Location": "Ahmedabad",
       "Description": [
@@ -93,7 +93,7 @@
     },
     {
       "Tab": "Moon Technolabs",
-      "Title": "Angular Lead",
+      "Title": "Angular Team Lead",
       "Date": "Feb 2023 - Sep 2023",
       "Location": "Ahmedabad",
       "Description": [
