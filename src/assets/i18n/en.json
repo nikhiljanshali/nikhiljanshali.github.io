@@ -6,7 +6,17 @@
   "Header.Item5": "Contact",
   "Header.cvBtn": "Resume",
   "Header.cvName": "CV_Nikhil_J_Janshali.pdf",
+  "Banner.Title": "Engineering the digital world from end to end",
+  "Banner.TitleName": "Nikhil Janshali",
   "Banner.Pretitle": "Hello! My name is",
+  "Banner.DeveloperList": [
+    "Software Developer.",
+    "Frontend Engineer.",
+    "Team Leader.",
+    "Team Player.",
+    "Software Engineer.",
+    "Code Enthusiast."
+  ],
   "Banner.Description": "With over <span class='underline'>13 years of experience</span> in web design and development, I have honed my skills in structure, functionality, configuration, testing, delivery, and maintenance. My expertise extends to web application design, architecture, implementation, and integration. I am known for being a responsible, intelligent professional who is process-oriented, a fast learner, and a self-starter. I excel in problem-solving and stay updated with the latest technologies and standards. Possessing excellent communication skills, I work effectively both independently and as a productive team member, capable of taking on leadership and mentoring roles. My motivation and commitment to excellence make me a valuable asset in any professional setting.",
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
