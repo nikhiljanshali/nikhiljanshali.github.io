@@ -124,3 +124,20 @@
   height: auto;
   transition: opacity 0.5s ease-in-out;
 }
+
+.about-section {
+  overflow: hidden; /* ensures proper wrapping around floated image */
+}
+
+.image-slider {
+  width: 100%;
+  max-width: 300px; /* adjust as needed */
+}
+
+@media (min-width: 768px) {
+  .image-slider {
+    float: right; /* image floats to the right on md+ screens */
+    margin-left: 20px; /* space between text and image */
+    margin-bottom: 20px;
+  }
+}

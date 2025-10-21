@@ -44,6 +44,14 @@ export class BannerComponent implements OnInit {
   deletingSpeed: number = 100;
   delayBetweenPhrases: number = 2000;
 
+  images: string[] = [
+    'assets/images/my/photo1.png',
+  ];
+
+  currentIndex = 0;
+  intervalId: any;
+
+
   constructor(
     private titleService: Title,
     public analyticsService: AnalyticsService
@@ -52,6 +60,17 @@ export class BannerComponent implements OnInit {
 
   ngOnInit(): void {
     this.type();
+    this.startSlider();
+  }
+
+  ngOnDestroy() {
+    clearInterval(this.intervalId);
+  }
+
+  startSlider() {
+    this.intervalId = setInterval(() => {
+      this.currentIndex = (this.currentIndex + 1) % this.images.length;
+    }, 3000); // Change image every 3 seconds
   }
 
   type() {
