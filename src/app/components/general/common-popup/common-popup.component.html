@@ -10,7 +10,13 @@
       <div class="card">
         <div class="card-body">
           <!-- <h5 class="card-title"><b>Title: </b>{{lesson.Title}}</h5> -->
-          <p class="card-text"><b>Description: </b>{{lesson.Description}}</p>
+          <div class="card-text">
+            <b>Description: </b>
+            <span [innerHTML]="lesson.Description | translate"></span>
+            <div [innerHTML]="lesson.SubDescription | translate">
+
+            </div>
+          </div>
           <!-- <div class="row">
             <div class="col">
               <p class="card-text"><b>Date: </b>{{lesson.startdate}}</p>
